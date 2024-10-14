@@ -1,0 +1,39 @@
+#!/bin/bash
+#SBATCH --job-name=vitern_llava_train  # Job name
+#SBATCH --output=output.log            # Standard output log
+#SBATCH --error=error.log              # Standard error log
+#SBATCH --nodes=1             # define node
+#SBATCH --gpus-per-node=2     # define gpu limmit in 1 node
+#SBATCH --ntasks=1            # define number tasks
+#SBATCH --cpus-per-task=24    # There are 24 CPU cores
+#SBATCH --time=4-00:10:00     # Max running time = 10 minutes
+#aSBATCH --mem=1000
+#aSBATCH --mem-per-gpu=80000
+#SBATCH --nodelist=node001
+
+# Load necessary modules
+
+nvidia-smi
+source ~/.bashrc
+conda env list
+echo "Setup conda env"
+conda create --name vintern_Llavva python=3.10 -y
+module load shared conda
+. $CONDAINIT
+conda activate vintern_Llavva
+
+
+pip install --upgrade pip
+pip -q install setuptools==69.5.1
+
+# Update pip
+echo "Unzip data"
+unzip ./data_store/data_chart.zip -d ./data_store/
+
+echo "Install torch"
+pip install torch==2.0.1 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+
+echo "Install other dependencies"
+pip -q install -e .
+pip -q install -e ".[train]"
+echo "Finished installing dependencies"

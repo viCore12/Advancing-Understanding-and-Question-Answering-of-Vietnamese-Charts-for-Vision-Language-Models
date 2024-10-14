@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=test_slurm # define job name
+#SBATCH --nodes=1             # define node
+#SBATCH --gpus-per-node=1     # define gpu limmit in 1 node
+#SBATCH --ntasks=1            # define number tasks
+#SBATCH --cpus-per-task=24    # There are 24 CPU cores
+#SBATCH --time=4-00:10:00     # Max running time = 10 minutes
+#aSBATCH --mem=1000
+#aSBATCH --mem-per-gpu=80000
+#SBATCH --exclude=node00[2-3]
+while true; do nvidia-smi > gpu_status.txt; sleep 5; done &
+module load shared conda
+. $CONDAINIT
+conda activate gnn_deep
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+
+export WANDB_PROJECT='moe-llava-internvit-stage3-sharegpt-qwen1.5-0.5b'
