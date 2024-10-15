@@ -38,6 +38,8 @@ pip -q install setuptools==69.5.1
 echo "Install torch"
 pip install torch==2.0.1 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
 
+pip install huggingface_hub
+
 echo "Install other dependencies"
 pip -q install -e .
 pip -q install -e ".[train]"
