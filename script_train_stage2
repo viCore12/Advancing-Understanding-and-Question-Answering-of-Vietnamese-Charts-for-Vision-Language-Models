@@ -14,6 +14,7 @@ module load shared conda
 conda activate gnn_deep
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 export WANDB_PROJECT='llava-internvit-stage2-sharegpt-qwen1.5-0.5b'
+export HF_API_TOKEN="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"
 
 #train stage
 IMAGE_FOLDER="./data_store/images"
@@ -56,7 +57,7 @@ deepspeed moellava/train/train_mem.py \
     --gradient_checkpointing True \
     --dataloader_num_workers 8 \
     --lazy_preprocess True \
-    --report_to wandb \
+    --report_to tensorboard  \
     --push_to_hub True \
     --cache_dir ./cache_dir \
     --run_name ft-stage2-internVit_llava_qwen1.5-0.5B-sharegpt \

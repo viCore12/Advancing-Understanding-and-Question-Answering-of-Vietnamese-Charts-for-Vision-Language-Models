@@ -13,7 +13,7 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = [
-    "transformers==4.37.0", "tokenizers==0.15.1", "sentencepiece", "shortuuid",
+    "transformers==4.37.0", "tokenizers==0.15.1", "sentencepiece==0.1.99", "shortuuid",
     "accelerate==0.21.0", "peft==0.5.0", "bitsandbytes==0.41.0",
     "pydantic<2,>=1", "markdown2[all]", "numpy", "scikit-learn",
     "gradio==3.37.0", "gradio_client==0.7.0",

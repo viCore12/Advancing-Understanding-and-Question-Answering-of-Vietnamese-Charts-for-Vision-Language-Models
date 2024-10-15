@@ -14,4 +14,3 @@ module load shared conda
 conda activate gnn_deep
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
-export WANDB_PROJECT='moe-llava-internvit-stage3-sharegpt-qwen1.5-0.5b'
