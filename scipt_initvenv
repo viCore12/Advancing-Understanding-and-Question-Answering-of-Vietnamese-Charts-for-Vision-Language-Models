@@ -42,4 +42,6 @@ pip install huggingface_hub
 echo "Install other dependencies"
 pip -q install -e .
 pip -q install -e ".[train]"
+
+pip -q install xformers
 echo "Finished installing dependencies"
