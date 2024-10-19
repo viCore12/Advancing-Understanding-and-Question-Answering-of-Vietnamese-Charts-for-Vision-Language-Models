@@ -22,10 +22,9 @@ module load shared conda
 . $CONDAINIT
 conda activate vintern_Llavva
 
-FILE_ID="1N6S051Rs-BBacJjTpVMqkcDMtLPy8y7X"
 ZIP_FILE="./data_store/data_chart.zip"
 
-wget --no-check-certificate "https://drive.google.com/uc?export=download&id=$FILE_ID" -O $ZIP_FILE
+wget --no-check-certificate "https://drive.usercontent.google.com/download?id=1N6S051Rs-BBacJjTpVMqkcDMtLPy8y7X&confirm=t&uuid=0650bfcc-c71d-46f9-9f11-95ed30151f42" -O $ZIP_FILE
 
 echo "Unzip data"
 unzip $ZIP_FILE -d ./data_store/
