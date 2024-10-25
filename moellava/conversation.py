@@ -10,7 +10,7 @@ class SeparatorStyle(Enum):
     MPT = auto()
     PLAIN = auto()
     LLAMA_2 = auto()
-
+    QWEN_2 = auto()
 
 @dataclasses.dataclass
 class Conversation:
@@ -88,6 +88,18 @@ class Conversation:
                 else:
                     ret += ""
             ret = ret.lstrip(self.sep)
+
+        elif self.sep_style == SeparatorStyle.QWEN_2:
+            seps = [self.sep, self.sep2]
+            ret = self.system + seps[0]
+            for i, (role, message) in enumerate(messages):
+                if message:
+                    if type(message) is tuple:
+                        message, _, _ = message
+                    ret += role + ": " + message + seps[i % 2]
+                else:
+                    ret += role + ":"
+
         elif self.sep_style == SeparatorStyle.PLAIN:
             seps = [self.sep, self.sep2]
             ret = self.system
@@ -419,6 +431,17 @@ conv_llava_v1_mmtag = Conversation(
     version="v1_mmtag",
 )
 
+conv_qwen_2 = Conversation(
+    system="A chat between a curious user and an artificial intelligence assistant. "
+    "The assistant gives helpful, detailed, and polite answers to the user's questions.",
+    roles=("USER", "ASSISTANT"),
+    version="qwen_v2",
+    messages=(),
+    offset=0,
+    sep_style=SeparatorStyle.QWEN_2,
+    sep=" ",
+    sep2="<|endoftext|>",
+)
 default_conversation = conv_vicuna_v1
 conv_templates = {
     "default": conv_vicuna_v0,
@@ -428,7 +451,8 @@ conv_templates = {
     "mistral": conv_mistral,
     "minicpm": conv_minicpm,
     "phi": conv_phi,
-    "qwen": conv_phi,
+    "qwen": conv_qwen_2,
+    "qwen_2": conv_qwen_2,
     "stablelm": conv_stablelm,
     "vicuna_v1": conv_vicuna_v1,
     "llama_2": conv_llama_2,
