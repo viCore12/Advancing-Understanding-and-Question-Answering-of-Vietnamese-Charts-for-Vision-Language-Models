@@ -249,7 +249,7 @@ class QWenAttention(nn.Module):
         super().__init__()
 
         self.register_buffer("masked_bias", torch.tensor(-1e4), persistent=False)
-        self.seq_length = config.seq_length
+        self.seq_length = config.max_length
 
         self.hidden_size = config.hidden_size
         self.split_size = config.hidden_size
