@@ -1547,7 +1547,7 @@ def train():
             rank0_print(name)
     rank0_print(Color.GREEN+'Final model \n'+Color.END, model)
     # sys.exit()
-
+    rank0_print(Color.PURPLE+'mm_projector_lr \n'+Color.END, training_args.mm_projector_lr, model.config.mm_projector_lr)
     data_module = make_supervised_data_module(tokenizer=tokenizer,
                                               data_args=data_args)
     trainer = LLaVATrainer(model=model,
