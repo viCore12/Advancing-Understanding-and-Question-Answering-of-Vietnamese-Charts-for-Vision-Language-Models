@@ -1188,13 +1188,13 @@ def train():
                     cache_dir=training_args.cache_dir,
                     **bnb_model_from_pretrained_args
                 )
-            elif 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
-                model = LlavaQWenForCausalLM.from_pretrained(
-                    model_args.model_name_or_path,
-                    cache_dir=training_args.cache_dir,
-                    **bnb_model_from_pretrained_args
-                )
-            elif 'qwen' in model_args.model_name_or_path.lower() and '1.5' in model_args.model_name_or_path.lower():
+            # elif 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
+            #     model = LlavaQWenForCausalLM.from_pretrained(
+            #         model_args.model_name_or_path,
+            #         cache_dir=training_args.cache_dir,
+            #         **bnb_model_from_pretrained_args
+            #     )
+            elif 'qwen' in model_args.model_name_or_path.lower() and any(version in model_args.model_name_or_path.lower() for version in ['1.5', '2']):
                 model = LlavaQwen1_5ForCausalLM.from_pretrained(
                     model_args.model_name_or_path,
                     cache_dir=training_args.cache_dir,
@@ -1243,13 +1243,13 @@ def train():
                     **bnb_model_from_pretrained_args
                 )
         else:
-            if 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
-                model = MoELLaVAQWenForCausalLM.from_pretrained(
-                    model_args.model_name_or_path,
-                    cache_dir=training_args.cache_dir,
-                    **bnb_model_from_pretrained_args
-                )
-            elif 'qwen' in model_args.model_name_or_path.lower() and '1.5' in model_args.model_name_or_path.lower():
+            # if 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
+            #     model = MoELLaVAQWenForCausalLM.from_pretrained(
+            #         model_args.model_name_or_path,
+            #         cache_dir=training_args.cache_dir,
+            #         **bnb_model_from_pretrained_args
+            #     )
+            if 'qwen' in model_args.model_name_or_path.lower() and any(version in model_args.model_name_or_path.lower() for version in ['1.5', '2']):
                 model = MoELLaVAQwen1_5ForCausalLM.from_pretrained(
                     model_args.model_name_or_path,
                     cache_dir=training_args.cache_dir,
@@ -1330,11 +1330,12 @@ def train():
     if model_args.moe_enable:
         if training_args.lora_enable:
             from peft import LoraConfig, get_peft_model
-            if 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
-                target_modules = [
-                    'mlp.w1', 'mlp.w2', 'mlp.c_proj'
-                ] if training_args.only_lora_ffn else find_all_linear_names(model)
-            elif 'phi' in model_args.model_name_or_path.lower():
+            # if 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
+            #     target_modules = [
+            #         'mlp.w1', 'mlp.w2', 'mlp.c_proj'
+            #     ] if training_args.only_lora_ffn else find_all_linear_names(model)
+            # elif 'phi' in model_args.model_name_or_path.lower():
+            if 'phi' in model_args.model_name_or_path.lower():
                 target_modules = [
                     'fc1', 'fc2'
                 ] if training_args.only_lora_ffn else find_all_linear_names(model)
@@ -1397,18 +1398,18 @@ def train():
     else:
         # import ipdb
         # ipdb.set_trace()
-        if 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
-            # from moellava.model.language_model.qwen.tokenization_qwen import QWenTokenizer
-            from transformers import Qwen2Tokenizer
-            tokenizer = Qwen2Tokenizer.from_pretrained(
-                model_args.model_name_or_path,
-                cache_dir=training_args.cache_dir,
-                model_max_length=training_args.model_max_length,
-                padding_side="right",
-                use_fast=False,
-            )
-            tokenizer.add_special_tokens({'unk_token': '<|extra_0|>', 'eos_token': '<|endoftext|>'})
-        if 'qwen' in model_args.model_name_or_path.lower() and '1.5' in model_args.model_name_or_path.lower():
+        # if 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
+        #     # from moellava.model.language_model.qwen.tokenization_qwen import QWenTokenizer
+        #     from transformers import Qwen2Tokenizer
+        #     tokenizer = Qwen2Tokenizer.from_pretrained(
+        #         model_args.model_name_or_path,
+        #         cache_dir=training_args.cache_dir,
+        #         model_max_length=training_args.model_max_length,
+        #         padding_side="right",
+        #         use_fast=False,
+        #     )
+        #     tokenizer.add_special_tokens({'unk_token': '<|extra_0|>', 'eos_token': '<|endoftext|>'})
+        if 'qwen' in model_args.model_name_or_path.lower() and any(version in model_args.model_name_or_path.lower() for version in ['1.5', '2']):
             tokenizer = transformers.AutoTokenizer.from_pretrained(
                 model_args.model_name_or_path,
                 cache_dir=training_args.cache_dir,
