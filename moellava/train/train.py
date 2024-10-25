@@ -1508,11 +1508,11 @@ def train():
                 p.requires_grad = False
 
         model.config.tune_mm_mlp_adapter = training_args.tune_mm_mlp_adapter = model_args.tune_mm_mlp_adapter
-        if model_args.tune_mm_mlp_adapter:
-            model.requires_grad_(False)
-            for p in model.get_model().mm_projector.parameters():
-                p.requires_grad = True
-                print("Tune mm_projector")  
+        # if model_args.tune_mm_mlp_adapter:
+        #     model.requires_grad_(False)
+        #     for p in model.get_model().mm_projector.parameters():
+        #         p.requires_grad = True
+        #         print("Tune mm_projector")  
 
         if training_args.bits in [4, 8]:
             model.get_model().mm_projector.to(dtype=compute_dtype, device=training_args.device)
@@ -1536,7 +1536,12 @@ def train():
                 if hasattr(module, 'weight'):
                     if training_args.bf16 and module.weight.dtype == torch.float32:
                         module = module.to(torch.bfloat16)
-    rank0_print(Color.PURPLE+'Check trainable params \n'+Color.END, model)                   
+    rank0_print(Color.PURPLE+'Check trainable params \n'+Color.END)      
+    if model_args.tune_mm_mlp_adapter:
+        model.requires_grad_(False)
+        for p in model.get_model().mm_projector.parameters():
+            p.requires_grad = True
+        print("MM Projector Trainable")              
     for name, param in model.named_parameters():
         if param.requires_grad:
             rank0_print(name)
