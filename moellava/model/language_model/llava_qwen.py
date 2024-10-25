@@ -18,7 +18,7 @@ from typing import List, Optional, Tuple, Union
 import torch
 import torch.nn as nn
 
-from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, Qwen2Tokenizer
 from .qwen.modeling_qwen import QWenLMHeadModel, QWenModel, _import_flash_attn, SUPPORT_BF16, SUPPORT_FP16, \
     SUPPORT_CUDA, logger
 from .qwen.configuration_qwen import QWenConfig
@@ -189,5 +189,5 @@ class LlavaQWenForCausalLM(QWenLMHeadModel, LlavaQWenMetaForCausalLM):
 
 
 AutoConfig.register("llava_qwen", LlavaQWenConfig)
-AutoTokenizer.register(LlavaQWenConfig, QWenTokenizer)
+AutoTokenizer.register(LlavaQWenConfig, Qwen2Tokenizer)
 AutoModelForCausalLM.register(LlavaQWenConfig, LlavaQWenForCausalLM)
