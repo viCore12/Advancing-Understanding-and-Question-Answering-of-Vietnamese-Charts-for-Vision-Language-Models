@@ -1540,6 +1540,7 @@ def train():
     if model_args.tune_mm_mlp_adapter:
         model.requires_grad_(False)
         for p in model.get_model().mm_projector.parameters():
+            print(p)
             p.requires_grad = True
         print("MM Projector Trainable")              
     for name, param in model.named_parameters():
