@@ -688,7 +688,7 @@ class QWenModel(QWenPreTrainedModel):
 
         self.gradient_checkpointing = False
         self.use_dynamic_ntk = config.use_dynamic_ntk
-        self.seq_length = config.seq_length
+        self.seq_length = config.max_length
 
         self.wte = nn.Embedding(self.vocab_size, self.embed_dim)
 

@@ -1,0 +1,3102 @@
+[
+  {
+    "index": 4386,
+    "id": "llava_c365733114_4386",
+    "image_name": "c365733114.jpg",
+    "image": "./data_store/shareGPT/images/c365733114.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Ánh sáng trong bức ảnh được bố trí như thế nào?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Ánh sáng trong bức ảnh đến từ cửa sổ lớn ở phía bên trái, chiếu sáng toàn bộ căn phòng và tạo ra cảm giác sáng sủa, thoáng đãng. Điều này làm nổi bật các chi tiết trong bức ảnh, đặc biệt là người giảng và bảng lật, khiến người xem dễ dàng tập trung vào họ."
+      }
+    ]
+  },
+  {
+    "index": 6572,
+    "id": "llava_c688d77d82_6572",
+    "image_name": "c688d77d82.jpg",
+    "image": "./data_store/shareGPT/images/c688d77d82.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCác cột trong biểu đồ có sắp xếp theo thứ tự tăng dần về chiều cao không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, các cột trong biểu đồ không hoàn toàn sắp xếp theo thứ tự tăng dần về chiều cao. Mặc dù cột đầu tiên và thứ hai có chiều cao thấp nhất, các cột giữa và cuối cùng có sự biến đổi không đồng đều, với cột thứ ba và thứ năm là cao nhất."
+      }
+    ]
+  },
+  {
+    "index": 5168,
+    "id": "llava_5b05b0eaa1_5168",
+    "image_name": "5b05b0eaa1.jpg",
+    "image": "./data_store/shareGPT/images/5b05b0eaa1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Các biểu tượng trong hình lục giác nhỏ đại diện cho điều gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Các biểu tượng trong hình lục giác nhỏ bao gồm một biểu tượng tìm kiếm và biểu đồ cột, có thể tượng trưng cho khả năng phân tích và truy vấn dữ liệu."
+      }
+    ]
+  },
+  {
+    "index": 525,
+    "id": "llava_e27bb4736a_525",
+    "image_name": "e27bb4736a.jpg",
+    "image": "./data_store/shareGPT/images/e27bb4736a.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCâu hỏi 1 trong hình ảnh có nội dung gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Câu hỏi 1 đề cập đến việc tính độ lệch pha giữa hai điểm O và M trên một sợi dây dao động. Bài yêu cầu tính độ lệch pha giữa hai điểm này khi biết được khoảng cách giữa chúng và bước sóng của sóng. Đáp án của câu này là D với lời giải chi tiết sử dụng công thức tính lệch pha từ sự chênh lệch về khoảng cách và bước sóng, cuối cùng ra kết quả 3π/4 rad."
+      }
+    ]
+  },
+  {
+    "index": 3752,
+    "id": "llava_c9579173a9_3752",
+    "image_name": "c9579173a9.jpg",
+    "image": "./data_store/shareGPT/images/c9579173a9.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Phương trình nào đang được biểu diễn trên đồ thị trong hình ảnh?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Phương trình biểu diễn trên đồ thị là x^2 + y^2 = 1. Đây là phương trình của một đường tròn có tâm tại gốc tọa độ (0,0) và bán kính là 1 đơn vị."
+      }
+    ]
+  },
+  {
+    "index": 916,
+    "id": "llava_1af4578684_916",
+    "image_name": "1af4578684.jpg",
+    "image": "./data_store/shareGPT/images/1af4578684.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tất cả các phần trên biểu đồ có cùng kích thước không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, các phần trên biểu đồ có kích thước khác nhau. Phần màu xanh dương chiếm 60%, màu xanh lá cây chiếm 30%, và màu vàng chiếm 10%."
+      }
+    ]
+  },
+  {
+    "index": 5313,
+    "id": "llava_8c98a6788e_5313",
+    "image_name": "8c98a6788e.jpg",
+    "image": "./data_store/shareGPT/images/8c98a6788e.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nMô hình Erdős-Renyi được đặt theo tên ai?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mô hình Erdős-Renyi được đặt theo tên của Paul Erdős và Alfréd Rényi, những nhà toán học đã phát triển mô hình này."
+      }
+    ]
+  },
+  {
+    "index": 3598,
+    "id": "llava_d70f633b3e_3598",
+    "image_name": "d70f633b3e.jpg",
+    "image": "./data_store/shareGPT/images/d70f633b3e.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Các phương trình ở phần G có nghĩa gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Phần G cung cấp ba phương trình toán học mô tả suất điện động của một máy phát điện xoay chiều ba pha. Các phương trình e₁, e₂ và e₃ mô tả ba pha điện động khác nhau, sử dụng hàm cosin với góc pha khác nhau (0, 2π/3, 4π/3), trong đó ω là tần số góc và t là thời gian."
+      }
+    ]
+  },
+  {
+    "index": 9125,
+    "id": "llava_08788ef045_9125",
+    "image_name": "08788ef045.jpg",
+    "image": "./data_store/shareGPT/images/08788ef045.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Thực tập tốt nghiệp được tính bao nhiêu ECTS và có nội dung chi tiết gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Thực tập tốt nghiệp được tính ~17 ECTS. Tuy nhiên, không có nội dung chi tiết về các nhiệm vụ cụ thể hay các yêu cầu trong phần này trong hình ảnh."
+      }
+    ]
+  },
+  {
+    "index": 10485,
+    "id": "llava_74f4deeb72_10485",
+    "image_name": "74f4deeb72.jpg",
+    "image": "./data_store/shareGPT/images/74f4deeb72.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó phải địa điểm Thăng Long chiếm tỷ lệ lớn nhất trong cả hai biểu đồ?"
+      },
+      {
+        "from": "gpt",
+        "value": "Đúng, địa điểm Thăng Long chiếm tỷ lệ lớn nhất trong cả hai biểu đồ, với 133 trong biểu đồ số lượng và 39% trong biểu đồ phần trăm."
+      }
+    ]
+  },
+  {
+    "index": 4422,
+    "id": "llava_d68bb91bc1_4422",
+    "image_name": "d68bb91bc1.jpg",
+    "image": "./data_store/shareGPT/images/d68bb91bc1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBiểu đồ ngắn hạn và dài hạn có cùng đường cầu không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, biểu đồ ngắn hạn có đường DSR (đường cầu ngắn hạn) còn biểu đồ dài hạn có đường DLR (đường cầu dài hạn). Sự khác biệt này phản ánh sự thay đổi trong điều kiện thị trường khi thời gian kéo dài và các doanh nghiệp mới tham gia thị trường."
+      }
+    ]
+  },
+  {
+    "index": 6216,
+    "id": "llava_83aadbc6ac_6216",
+    "image_name": "83aadbc6ac.jpg",
+    "image": "./data_store/shareGPT/images/83aadbc6ac.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBiểu đồ này hiển thị thông tin gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ này hiển thị phổ điểm của môn Địa lí, cho thấy số lượng thí sinh đạt được mỗi mức điểm từ 0 đến 10. Trục hoành thể hiện các mức điểm, trong khi trục tung thể hiện số lượng thí sinh tương ứng với từng mức điểm đó. Đỉnh của đồ thị nằm tại mức điểm 6.5, với 30749 thí sinh đạt được mức điểm này, và số thí sinh giảm dần ở hai phía của đồ thị, cho thấy phổ điểm của môn này có dạng phân phối chuẩn với phần lớn thí sinh đạt điểm từ 5 đến 7."
+      }
+    ]
+  },
+  {
+    "index": 7573,
+    "id": "llava_c4b9894455_7573",
+    "image_name": "c4b9894455.jpg",
+    "image": "./data_store/shareGPT/images/c4b9894455.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCác khối văn bản 'LOREM IPSUM' có chứa nội dung thương mại thực sự không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, các khối văn bản 'LOREM IPSUM' hiện tại chỉ chứa văn bản mẫu, chưa có nội dung thương mại thực sự."
+      }
+    ]
+  },
+  {
+    "index": 2677,
+    "id": "llava_91bf808dca_2677",
+    "image_name": "91bf808dca.jpg",
+    "image": "./data_store/shareGPT/images/91bf808dca.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPhần mềm hiển thị gì trong ảnh?"
+      },
+      {
+        "from": "gpt",
+        "value": "Phần mềm trong ảnh là GeoGebra Classic, một phần mềm toán học hiển thị đồ thị của hàm số f(x) = x^3 - x - 1 cùng với các công cụ tùy chọn ở bên trái màn hình. Đồ thị được vẽ dưới dạng đường cong màu xanh với các điểm đặc trưng."
+      }
+    ]
+  },
+  {
+    "index": 4010,
+    "id": "llava_4b3797888a_4010",
+    "image_name": "4b3797888a.jpg",
+    "image": "./data_store/shareGPT/images/4b3797888a.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Phần lớn dữ liệu tuổi tập trung trong khoảng từ 20 đến 50 tuổi không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, phần lớn dữ liệu tuổi tập trung trong khoảng từ 20 đến 50 tuổi, như thể hiện qua sự cao nhất của các thanh histogram và đỉnh của đường mật độ nằm trong khoảng này."
+      }
+    ]
+  },
+  {
+    "index": 8751,
+    "id": "llava_b1a549f94f_8751",
+    "image_name": "b1a549f94f.jpg",
+    "image": "./data_store/shareGPT/images/b1a549f94f.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHình ảnh ở góc trên bên phải mang thông điệp gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Hình ảnh này miêu tả hai em bé đứng đối diện với một hình bóng đen lớn, tượng trưng cho mối nguy hiểm hoặc sự đe dọa. Với tiêu đề 'Khi thấy khó chịu, kiên quyết nói KHÔNG!', thông điệp chính là giáo dục trẻ biết từ chối những tình huống không an toàn hoặc không thoải mái, đặc biệt trong bối cảnh lạm dụng."
+      }
+    ]
+  },
+  {
+    "index": 2803,
+    "id": "llava_5c8cce441b_2803",
+    "image_name": "5c8cce441b.jpg",
+    "image": "./data_store/shareGPT/images/5c8cce441b.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNăm 2019, ngành nào chiếm tỷ lệ lao động cao nhất?"
+      },
+      {
+        "from": "gpt",
+        "value": "Vào năm 2019, ngành Dịch vụ chiếm tỷ lệ lao động cao nhất với 35.9%. Điều này cho thấy sự phát triển mạnh mẽ của lĩnh vực dịch vụ vào thời điểm đó, khi tỷ lệ lao động trong các ngành khác như Nông, lâm nghiệp và thủy sản (34.5%) và Công nghiệp - Xây dựng (30.1%) đều thấp hơn."
+      }
+    ]
+  },
+  {
+    "index": 10403,
+    "id": "llava_bf2a3b8646_10403",
+    "image_name": "bf2a3b8646.jpg",
+    "image": "./data_store/shareGPT/images/bf2a3b8646.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Giá trị trung bình của đơn hàng hiện tại là bao nhiêu và xu hướng của nó ra sao?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Giá trị trung bình của đơn hàng hiện tại là 58.950.000 đồng, giảm 7,2% so với kỳ trước. Sự giảm sút này có thể là dấu hiệu cho thấy khách hàng chi tiêu ít hơn hoặc các giao dịch nhỏ hơn được thực hiện trong tháng này."
+      }
+    ]
+  },
+  {
+    "index": 9980,
+    "id": "llava_ea9bbcfd64_9980",
+    "image_name": "ea9bbcfd64.jpg",
+    "image": "./data_store/shareGPT/images/ea9bbcfd64.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBiểu đồ có hiển thị doanh thu theo từng quý không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, biểu đồ hiển thị doanh thu theo từng quý, với mỗi phần của các cột được tô màu khác nhau để đại diện cho Q1, Q2, Q3, và Q4."
+      }
+    ]
+  },
+  {
+    "index": 1169,
+    "id": "llava_3b7741877e_1169",
+    "image_name": "3b7741877e.jpg",
+    "image": "./data_store/shareGPT/images/3b7741877e.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nGiai đoạn Reach tập trung vào các hoạt động nào?"
+      },
+      {
+        "from": "gpt",
+        "value": "Giai đoạn Reach (Top of the Funnel) tập trung vào việc tạo nhận thức cho thương hiệu. Các hoạt động chính được liệt kê bao gồm việc tối ưu hóa website traffic, xây dựng thương hiệu thông qua các phương tiện truyền thông xã hội và quảng cáo trên các kênh lớn. Chỉ số đo lường bao gồm lượng truy cập website, các lần nhắc đến thương hiệu và các chiến dịch quảng cáo online."
+      }
+    ]
+  },
+  {
+    "index": 10617,
+    "id": "llava_c980c9b14e_10617",
+    "image_name": "c980c9b14e.jpg",
+    "image": "./data_store/shareGPT/images/c980c9b14e.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nĐiểm cao nhất của môn Địa lý có phải là 9,50 không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, điểm cao nhất của môn Địa lý trong biểu đồ là 9,50, được biểu thị bằng cột màu xanh dương."
+      }
+    ]
+  },
+  {
+    "index": 11199,
+    "id": "llava_16595.jpg_11199",
+    "image_name": "16595.jpg.jpg",
+    "image": "./data_store/shareGPT/images/16595.jpg.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBách Hóa Xanh có tăng thị phần qua từng năm từ 2018 đến 2020 không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, Bách Hóa Xanh đã tăng thị phần đều qua từng năm, từ 0.4% vào năm 2018 lên 0.9% vào năm 2019 và 1.4% vào năm 2020, thể hiện sự tăng trưởng liên tục trong giai đoạn này."
+      }
+    ]
+  },
+  {
+    "index": 4374,
+    "id": "llava_4eed415fc2_4374",
+    "image_name": "4eed415fc2.jpg",
+    "image": "./data_store/shareGPT/images/4eed415fc2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Hình ảnh này có bao gồm bất kỳ hình ảnh con người nào không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, hình ảnh không bao gồm bất kỳ hình ảnh con người nào, mà chỉ có các biểu tượng và công cụ tài chính như biểu đồ, máy tính, kính lúp và các tài liệu."
+      }
+    ]
+  },
+  {
+    "index": 10980,
+    "id": "llava_1237.jpg_10980",
+    "image_name": "1237.jpg.jpg",
+    "image": "./data_store/shareGPT/images/1237.jpg.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Nội dung văn bản trên bìa sách được bố trí theo cấu trúc nào?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Nội dung văn bản trên bìa sách được bố trí rất rõ ràng và có cấu trúc hợp lý. Tiêu đề chính 'BIG DATA' chiếm phần lớn không gian ở giữa, với dòng chữ 'CHO NHÀ QUẢN LÝ' nhỏ hơn nằm phía dưới. Tên tác giả và người dịch được đặt ở góc dưới bên phải, giúp tạo sự cân đối cho bìa sách. Các biểu tượng và logo được sắp xếp xung quanh tiêu đề để tạo nên một bức tranh tổng thể hài hòa và dễ nhìn."
+      }
+    ]
+  },
+  {
+    "index": 3432,
+    "id": "llava_9fdb522f30_3432",
+    "image_name": "9fdb522f30.jpg",
+    "image": "./data_store/shareGPT/images/9fdb522f30.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nMàu sắc của các cột biểu thị điều gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Màu sắc của các cột biểu thị sự thay đổi giá trị của các mã cổ phiếu: cột màu xanh lá cây biểu thị sự tăng giá trị của mã cổ phiếu, trong khi cột màu đỏ biểu thị sự giảm giá trị. Điều này được thiết lập bởi tùy chọn 'Invert if negative' trong mục 'Format Data Series' của Excel."
+      }
+    ]
+  },
+  {
+    "index": 5820,
+    "id": "llava_dd046a62a5_5820",
+    "image_name": "dd046a62a5.jpg",
+    "image": "./data_store/shareGPT/images/dd046a62a5.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Trang phục của các sinh viên có điểm gì đặc biệt?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Trang phục của sinh viên trong hình là đồng phục màu xám với phần viền xanh dương. Phía sau lưng áo có dòng chữ 'TRƯỜNG ĐHCN VIỆT HUNG - KHOA Ô TÔ,' cho thấy đây là nhóm sinh viên thuộc khoa ô tô của Trường Đại học Công nghiệp Việt Hưng."
+      }
+    ]
+  },
+  {
+    "index": 6065,
+    "id": "llava_e378ed3500_6065",
+    "image_name": "e378ed3500.jpg",
+    "image": "./data_store/shareGPT/images/e378ed3500.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCác chức năng nào khác được hiển thị trên thanh công cụ?"
+      },
+      {
+        "from": "gpt",
+        "value": "Trên thanh công cụ Excel, các chức năng khác bao gồm 'File', 'Insert', 'Page Layout', 'Formulas', 'Data', 'Review', 'View', 'Developer', 'Help', 'Design', và 'Format'. Tab hiện tại đang được chọn là 'Design', giúp người dùng điều chỉnh các thành phần biểu đồ như màu sắc, kiểu dáng, và các phần tử khác của biểu đồ."
+      }
+    ]
+  },
+  {
+    "index": 2664,
+    "id": "llava_50f6810184_2664",
+    "image_name": "50f6810184.jpg",
+    "image": "./data_store/shareGPT/images/50f6810184.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Những ngành nào có tỷ lệ đóng góp từ 5% đến 7%?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Các ngành có tỷ lệ đóng góp từ 5% đến 7% bao gồm: Thông tin và truyền thông (7%), Giáo dục (6%), và Du lịch (5%)."
+      }
+    ]
+  },
+  {
+    "index": 5977,
+    "id": "llava_b476fc826f_5977",
+    "image_name": "b476fc826f.jpg",
+    "image": "./data_store/shareGPT/images/b476fc826f.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu tượng hình người ở phần 'Weaknesses' có đang nâng tạ không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, biểu tượng ở phần 'Weaknesses' không phải là hình người nâng tạ mà là hình một người đang bị bao quanh bởi các dấu trừ (-), tượng trưng cho các yếu tố tiêu cực và điểm yếu."
+      }
+    ]
+  },
+  {
+    "index": 10415,
+    "id": "llava_4a6c1df78e_10415",
+    "image_name": "4a6c1df78e.jpg",
+    "image": "./data_store/shareGPT/images/4a6c1df78e.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Phải chăng số lượng học sinh giảm dần khi mức điểm càng cao?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Đúng, số lượng học sinh có xu hướng giảm dần khi mức điểm tăng lên, đặc biệt sau khoảng điểm từ 22 trở đi."
+      }
+    ]
+  },
+  {
+    "index": 7428,
+    "id": "llava_89e2dff9f9_7428",
+    "image_name": "89e2dff9f9.jpg",
+    "image": "./data_store/shareGPT/images/89e2dff9f9.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Các ký hiệu hình tròn màu đỏ và xanh trên biểu đồ có ý nghĩa gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Các ký hiệu hình tròn màu đỏ và xanh lá cây trên biểu đồ đại diện cho các sự kiện kỹ thuật hoặc các mốc giao dịch quan trọng. Màu đỏ có thể biểu thị tín hiệu bán hoặc mức kháng cự, trong khi màu xanh lá có thể biểu thị tín hiệu mua hoặc mức hỗ trợ."
+      }
+    ]
+  },
+  {
+    "index": 4554,
+    "id": "llava_3268095202_4554",
+    "image_name": "3268095202.jpg",
+    "image": "./data_store/shareGPT/images/3268095202.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Chi phí của Hàn Quốc so với Lào chênh lệch bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Chi phí của Hàn Quốc là 59 USD và của Lào là 85 USD, chênh lệch giữa hai quốc gia này là 26 USD."
+      }
+    ]
+  },
+  {
+    "index": 6227,
+    "id": "llava_22c0e4a13c_6227",
+    "image_name": "22c0e4a13c.jpg",
+    "image": "./data_store/shareGPT/images/22c0e4a13c.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Năm 2021, mật độ dân số của vùng kinh tế nào cao nhất và vùng nào thấp nhất theo bảng số liệu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Theo bảng số liệu, năm 2021, vùng có mật độ dân số cao nhất là Đồng bằng sông Hồng với 1091 người/km², trong khi vùng có mật độ dân số thấp nhất là Tây Nguyên với chỉ 111 người/km²."
+      }
+    ]
+  },
+  {
+    "index": 1654,
+    "id": "llava_22170324ef_1654",
+    "image_name": "22170324ef.jpg",
+    "image": "./data_store/shareGPT/images/22170324ef.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSự dịch chuyển của đường LM từ LM0 sang LM1 ám chỉ điều gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sự dịch chuyển của đường LM từ LM0 sang LM1 ám chỉ rằng đã có sự thay đổi trong thị trường tiền tệ, có thể là do sự thay đổi trong cung tiền hoặc lãi suất. Điều này dẫn đến một mức thu nhập, sản lượng cao hơn (Y1) trong khi tỷ giá hối đoái vẫn giữ cố định ở mức e*."
+      }
+    ]
+  },
+  {
+    "index": 3814,
+    "id": "llava_7b059b602b_3814",
+    "image_name": "7b059b602b.jpg",
+    "image": "./data_store/shareGPT/images/7b059b602b.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Đường ATC có giao với đường cầu (D = MR) không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Không. Trong biểu đồ, đường tổng chi phí trung bình (ATC) không giao với đường cầu (D = MR). Đường ATC chỉ thể hiện chi phí trung bình cho mỗi mức sản lượng, trong khi đường cầu thể hiện mối quan hệ giữa giá cả và lượng cầu."
+      }
+    ]
+  },
+  {
+    "index": 1307,
+    "id": "llava_0ad9c5a99e_1307",
+    "image_name": "0ad9c5a99e.jpg",
+    "image": "./data_store/shareGPT/images/0ad9c5a99e.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Hình ảnh có mô tả mối quan hệ giữa các thị trường tài chính không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có. Hình ảnh sử dụng vòng tròn khép kín để thể hiện mối quan hệ liên kết giữa các thị trường tài chính khác nhau, bao gồm thị trường hàng hóa, trái phiếu, cổ phiếu, và tiền tệ."
+      }
+    ]
+  },
+  {
+    "index": 4741,
+    "id": "llava_1cfcf4bf47_4741",
+    "image_name": "1cfcf4bf47.jpg",
+    "image": "./data_store/shareGPT/images/1cfcf4bf47.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Các tùy chọn bên dưới biểu đồ có ý nghĩa gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Bên dưới biểu đồ, có các tùy chọn như 'Clear Color', 'EV', 'VV', 'Force', và 'Show Neighbors'. Các tùy chọn này có thể liên quan đến việc điều chỉnh hoặc hiển thị các yếu tố của biểu đồ. Ví dụ, 'Clear Color' có thể dùng để xóa màu các nút, trong khi 'Force' và 'Show Neighbors' có thể ảnh hưởng đến cách hiển thị và tương tác của các liên kết giữa các nút."
+      }
+    ]
+  },
+  {
+    "index": 3733,
+    "id": "llava_e0192f0e30_3733",
+    "image_name": "e0192f0e30.jpg",
+    "image": "./data_store/shareGPT/images/e0192f0e30.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBiểu đồ có những giá trị cực biên nào liên quan đến nhiệt độ?"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ có hai giá trị cực biên liên quan đến nhiệt độ là -2°C và 44°C. Đây là nhiệt độ thấp nhất và cao nhất mà cá chép có thể chịu đựng được. Khi nhiệt độ giảm xuống dưới -2°C hoặc vượt quá 44°C, cá chép sẽ không thể sống sót, điều này được biểu diễn bởi sự tụt dốc của biểu đồ về 0 tại cả hai đầu."
+      }
+    ]
+  },
+  {
+    "index": 10834,
+    "id": "llava_000000002333.jpg_10834",
+    "image_name": "000000002333.jpg.jpg",
+    "image": "./data_store/shareGPT/images/000000002333.jpg.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBình Phước có phải là tỉnh có diện tích thu hoạch cao su lớn nhất?"
+      },
+      {
+        "from": "gpt",
+        "value": "Đúng, Bình Phước là tỉnh có diện tích thu hoạch cao su lớn nhất theo thông tin trong hình ảnh."
+      }
+    ]
+  },
+  {
+    "index": 750,
+    "id": "llava_dfb040eed0_750",
+    "image_name": "dfb040eed0.jpg",
+    "image": "./data_store/shareGPT/images/dfb040eed0.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBố cục của hình ảnh được thiết kế như thế nào?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bố cục hình ảnh gồm ba thiết bị điện tử đặt ở giữa: một màn hình máy tính lớn ở trung tâm, một máy tính bảng và một điện thoại di động nằm phía bên phải. Mỗi thiết bị đều hiển thị một phần của phần mềm E-INVOICE, như mô hình blockchain, biểu đồ và bảng hóa đơn. Phần nền có màu xanh dương với các khối lục giác liên kết, tạo ra cảm giác hiện đại và công nghệ."
+      }
+    ]
+  },
+  {
+    "index": 1139,
+    "id": "llava_d29d437da9_1139",
+    "image_name": "d29d437da9.jpg",
+    "image": "./data_store/shareGPT/images/d29d437da9.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a pie chart shown in the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "No, the image does not feature a pie chart. It includes a horizontal bar chart illustrating different performance categories in an Excel tutorial."
+      }
+    ]
+  },
+  {
+    "index": 3150,
+    "id": "llava_46776314f2_3150",
+    "image_name": "46776314f2.jpg",
+    "image": "./data_store/shareGPT/images/46776314f2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Điểm E trong hai biểu đồ đại diện cho điều gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Điểm E trong cả hai biểu đồ đại diện cho điểm cân bằng giữa cung và cầu. Ở biểu đồ trái, điểm E là nơi đường cung và cầu của mặt hàng X giao nhau, thể hiện mức giá và sản lượng cân bằng. Ở biểu đồ phải, điểm E là nơi tổng cung và tổng cầu của nền kinh tế giao nhau, biểu thị mức giá và tổng sản lượng cân bằng của nền kinh tế."
+      }
+    ]
+  },
+  {
+    "index": 9459,
+    "id": "llava_3a5d31a0b7_9459",
+    "image_name": "3a5d31a0b7.jpg",
+    "image": "./data_store/shareGPT/images/3a5d31a0b7.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Chi phí biến đổi phản ánh điều gì trong biểu đồ?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Chi phí biến đổi trong biểu đồ phản ánh sự gia tăng chi phí khi số lượng sản phẩm sản xuất tăng. Đây là các chi phí trực tiếp liên quan đến sản xuất, chẳng hạn như nguyên vật liệu và lao động, và chúng tăng tỉ lệ thuận với mức độ sản xuất."
+      }
+    ]
+  },
+  {
+    "index": 5925,
+    "id": "llava_4e08493614_5925",
+    "image_name": "4e08493614.jpg",
+    "image": "./data_store/shareGPT/images/4e08493614.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Doanh thu của tập đoàn thay đổi như thế nào từ quý 1/2017 đến quý 4/2017?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Doanh thu của Vingroup tăng dần từ quý 1/2017 với 15,791 tỷ đồng lên đến quý 4/2017 với 33,189 tỷ đồng. Đây là sự gia tăng gần gấp đôi trong vòng một năm, phản ánh sự phát triển nhanh chóng của tập đoàn trong giai đoạn này."
+      }
+    ]
+  },
+  {
+    "index": 10133,
+    "id": "llava_aa9a033637_10133",
+    "image_name": "aa9a033637.jpg",
+    "image": "./data_store/shareGPT/images/aa9a033637.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Số lượng thí sinh đạt điểm từ 8.0 trở lên là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Tổng số lượng thí sinh đạt điểm từ 8.0 trở lên là 31,240 thí sinh, với 18,534 thí sinh đạt điểm 8.0, 10,923 thí sinh đạt điểm 8.4, và 1,850 thí sinh đạt điểm 8.8."
+      }
+    ]
+  },
+  {
+    "index": 10299,
+    "id": "llava_5bb08a741e_10299",
+    "image_name": "5bb08a741e.jpg",
+    "image": "./data_store/shareGPT/images/5bb08a741e.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Cột chi phí tháng nào cao nhất?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Cột chi phí tháng 1 cao nhất, với giá trị gần 1.700.000.000 đồng. Đây là mức chi phí vượt trội so với các tháng còn lại, gấp nhiều lần so với tháng 2 và 4."
+      }
+    ]
+  },
+  {
+    "index": 4803,
+    "id": "llava_774a5776f0_4803",
+    "image_name": "774a5776f0.jpg",
+    "image": "./data_store/shareGPT/images/774a5776f0.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Màu sắc trong biểu đồ biểu diễn cho những thông tin gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Trong biểu đồ, màu xanh dương biểu diễn 'Doanh thu', màu cam biểu diễn 'Lợi nhuận ròng', và màu xám biểu diễn 'Biên lợi nhuận'. Các cột màu xanh dương cao hơn, cho thấy 'Doanh thu' lớn hơn nhiều so với 'Lợi nhuận ròng'. Đường màu xám biểu diễn tỷ lệ phần trăm của 'Biên lợi nhuận' qua các năm."
+      }
+    ]
+  },
+  {
+    "index": 9044,
+    "id": "llava_36a4eaebd9_9044",
+    "image_name": "36a4eaebd9.jpg",
+    "image": "./data_store/shareGPT/images/36a4eaebd9.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHình ảnh mô tả loại thiết bị công nghệ nào?"
+      },
+      {
+        "from": "gpt",
+        "value": "Hình ảnh mô tả nhiều thiết bị công nghệ khác nhau, bao gồm một máy tính xách tay, điện thoại thông minh, và các biểu tượng liên quan đến email, phân tích dữ liệu, và giao tiếp. Đây là những thiết bị phổ biến trong môi trường công nghệ và công việc hàng ngày."
+      }
+    ]
+  },
+  {
+    "index": 1291,
+    "id": "llava_b15896d7c3_1291",
+    "image_name": "b15896d7c3.jpg",
+    "image": "./data_store/shareGPT/images/b15896d7c3.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nMàu sắc trong biểu đồ có ý nghĩa gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Màu sắc trong biểu đồ đại diện cho các quý: màu tím là Q1, màu xanh lá cây là Q2, màu cam là Q3 và màu xanh dương là Q4. Mỗi phần màu thể hiện doanh số của khu vực trong từng quý tương ứng."
+      }
+    ]
+  },
+  {
+    "index": 6201,
+    "id": "llava_2f81a628fd_6201",
+    "image_name": "2f81a628fd.jpg",
+    "image": "./data_store/shareGPT/images/2f81a628fd.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Phần mềm có cung cấp thông tin chi tiết về các OKRs cá nhân không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, phần mềm hiển thị thông tin chi tiết về OKRs cá nhân dưới phần 'OKRs của tôi', nơi người dùng có thể theo dõi số lượng mục tiêu cá nhân và tiến độ hoàn thành của chúng."
+      }
+    ]
+  },
+  {
+    "index": 2045,
+    "id": "llava_05698e2b88_2045",
+    "image_name": "05698e2b88.jpg",
+    "image": "./data_store/shareGPT/images/05698e2b88.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPhần cửa sổ bên phải của hình ảnh có chức năng gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Phần cửa sổ bên phải của hình ảnh là giao diện để thiết lập tham số báo cáo. Người dùng có thể chọn dữ liệu cần báo cáo (ví dụ: cơ cấu tổ chức), đơn vị (Công ty TNHH Hoa Mai), chọn nhân viên cụ thể (hiện chưa được chọn), thời gian báo cáo (Quý này), và số giai đoạn thống kê (4 giai đoạn). Cửa sổ này có hai nút 'Áp dụng' để xác nhận cài đặt và 'Hủy bỏ' để bỏ qua thay đổi."
+      }
+    ]
+  },
+  {
+    "index": 8785,
+    "id": "llava_55e0413564_8785",
+    "image_name": "55e0413564.jpg",
+    "image": "./data_store/shareGPT/images/55e0413564.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu đồ này thể hiện điều gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ này thể hiện số lượng các cuộc tấn công trực tuyến vào các doanh nghiệp ở Đông Nam Á trong ba năm, từ năm 2020 đến 2022. Biểu đồ cho thấy sự tăng trưởng mạnh mẽ trong các cuộc tấn công vào năm 2022, với một dòng chú thích cho biết số cuộc tấn công đã tăng 45% so với năm trước."
+      }
+    ]
+  },
+  {
+    "index": 7527,
+    "id": "llava_7534f65797_7527",
+    "image_name": "7534f65797.jpg",
+    "image": "./data_store/shareGPT/images/7534f65797.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHàng đầu tiên trong hình ảnh hiển thị gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Hàng đầu tiên trong hình ảnh chứa các biểu đồ tròn và bánh rán với các phần màu khác nhau. Đây là những biểu đồ thường được sử dụng để hiển thị tỷ lệ phần trăm hoặc phân bổ dữ liệu trong các danh mục khác nhau."
+      }
+    ]
+  },
+  {
+    "index": 711,
+    "id": "llava_b0b9668b3a_711",
+    "image_name": "b0b9668b3a.jpg",
+    "image": "./data_store/shareGPT/images/b0b9668b3a.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có những yếu tố nào khác góp phần tạo nên không gian làm việc trong hình ảnh này?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Ngoài các biểu tượng về tài chính và bảo mật, hình ảnh còn có nhiều chi tiết nhỏ khác như cốc cà phê, bút, tài liệu, và phong bì thư, tạo cảm giác của một không gian làm việc thực tế. Những yếu tố này, mặc dù không trực tiếp liên quan đến phần mềm, nhưng chúng giúp tạo nên bối cảnh của một văn phòng làm việc, giúp người xem dễ dàng liên tưởng đến một môi trường làm việc chuyên nghiệp và tiện lợi khi sử dụng phần mềm tài chính này."
+      }
+    ]
+  },
+  {
+    "index": 4333,
+    "id": "llava_7d617dc4ce_4333",
+    "image_name": "7d617dc4ce.jpg",
+    "image": "./data_store/shareGPT/images/7d617dc4ce.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Quốc gia nào có sự gia tăng đáng kể về số liệu giữa năm 2023 và 2024?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Quốc gia có sự gia tăng đáng kể là Trung Quốc, với cột dữ liệu năm 2024 lớn hơn nhiều so với cột năm 2023."
+      }
+    ]
+  },
+  {
+    "index": 9891,
+    "id": "llava_b1a3fc9b96_9891",
+    "image_name": "b1a3fc9b96.jpg",
+    "image": "./data_store/shareGPT/images/b1a3fc9b96.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Đường màu đỏ trong biểu đồ đại diện cho điều gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Đường màu đỏ trong biểu đồ đại diện cho một dạng sóng hình sin, biểu diễn biên độ thay đổi theo thời gian. Nó dao động từ giá trị thấp đến giá trị cao trên trục y, cho thấy sự biến thiên của một đại lượng liên quan đến dòng điện hoặc tín hiệu theo thời gian."
+      }
+    ]
+  },
+  {
+    "index": 5635,
+    "id": "llava_c5d6e50175_5635",
+    "image_name": "c5d6e50175.jpg",
+    "image": "./data_store/shareGPT/images/c5d6e50175.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Quốc gia nào có doanh thu in-app trên mỗi lượt tải game cao nhất trên nền tảng iOS vào năm 2022?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Quốc gia có doanh thu in-app trên mỗi lượt tải game cao nhất trên nền tảng iOS vào năm 2022 là Singapore, với doanh thu đạt $11.52."
+      }
+    ]
+  },
+  {
+    "index": 5881,
+    "id": "llava_0db9825a56_5881",
+    "image_name": "0db9825a56.jpg",
+    "image": "./data_store/shareGPT/images/0db9825a56.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nĐường SMA và Bollinger Bands đóng vai trò gì trong biểu đồ này?"
+      },
+      {
+        "from": "gpt",
+        "value": "Đường SMA (Trung bình động đơn giản) màu cam là một chỉ báo cho thấy xu hướng tổng quan của giá trong một khoảng thời gian nhất định, ở đây là 20 phiên giao dịch. Nó giúp xác định xem thị trường đang có xu hướng tăng hay giảm. Bollinger Bands là dải bao quanh giá, thể hiện sự biến động của thị trường. Khi giá dao động gần các dải ngoài của Bollinger Bands, điều đó thường cho thấy rằng thị trường đang biến động mạnh hoặc có thể đảo chiều trong ngắn hạn."
+      }
+    ]
+  },
+  {
+    "index": 1584,
+    "id": "llava_d08dc0a594_1584",
+    "image_name": "d08dc0a594.jpg",
+    "image": "./data_store/shareGPT/images/d08dc0a594.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNội dung văn bản 'Slowing Down' trong biểu đồ nói lên điều gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Văn bản 'Slowing Down' có nghĩa là tốc độ tăng trưởng chi tiêu cho dịch vụ giao thức ăn tại Đông Nam Á đang chậm lại. Mặc dù vẫn có sự tăng trưởng trong năm 2022, nhưng tốc độ này đã giảm xuống chỉ còn 5%, so với các năm trước đó."
+      }
+    ]
+  },
+  {
+    "index": 6224,
+    "id": "llava_22c0e4a13c_6224",
+    "image_name": "22c0e4a13c.jpg",
+    "image": "./data_store/shareGPT/images/22c0e4a13c.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCâu hỏi nào yêu cầu học sinh vẽ biểu đồ và nhận xét về cấu trúc tổng sản phẩm trong nước?"
+      },
+      {
+        "from": "gpt",
+        "value": "Câu hỏi 4 yêu cầu học sinh vẽ biểu đồ thể hiện cơ cấu tổng sản phẩm trong nước (theo giá hiện hành) phân theo khu vực kinh tế của nước ta năm 2011 và 2021. Sau đó, học sinh phải nhận xét về sự thay đổi này."
+      }
+    ]
+  },
+  {
+    "index": 1519,
+    "id": "llava_d4f8d01811_1519",
+    "image_name": "d4f8d01811.jpg",
+    "image": "./data_store/shareGPT/images/d4f8d01811.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu đồ trong hình ảnh là biểu đồ gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ trong hình ảnh là biểu đồ nến, biểu thị sự biến động của cổ phiếu PVS thuộc Tổng Công Ty Cổ Phần Dịch Vụ Kỹ Thuật Dầu Khí Việt Nam, giao dịch trên sàn HNX. Các thanh nến biểu thị giá mở cửa, giá cao nhất, giá thấp nhất, và giá đóng cửa của cổ phiếu qua từng ngày."
+      }
+    ]
+  },
+  {
+    "index": 1674,
+    "id": "llava_5a8a146148_1674",
+    "image_name": "5a8a146148.jpg",
+    "image": "./data_store/shareGPT/images/5a8a146148.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Vấn đề nào có tỉ lệ phần trăm cao thứ hai trong biểu đồ?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Vấn đề có tỉ lệ phần trăm cao thứ hai là 'Quản lý nguồn nước phục vụ nông nghiệp', chiếm 26%."
+      }
+    ]
+  },
+  {
+    "index": 5514,
+    "id": "llava_70c7801db9_5514",
+    "image_name": "70c7801db9.jpg",
+    "image": "./data_store/shareGPT/images/70c7801db9.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHình ảnh có bao gồm các biểu đồ tài chính không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, hình ảnh bao gồm các biểu đồ tài chính được hiển thị trên màn hình máy tính xách tay của người đang thao tác trong hình lục giác."
+      }
+    ]
+  },
+  {
+    "index": 3527,
+    "id": "llava_f743a755b1_3527",
+    "image_name": "f743a755b1.jpg",
+    "image": "./data_store/shareGPT/images/f743a755b1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có phải câu hỏi nào trong đề thi cũng yêu cầu sử dụng Atlas Địa lý Việt Nam không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Không. Mặc dù một số câu hỏi yêu cầu thí sinh sử dụng Atlas Địa lý, như câu 41, 45 và 48, nhưng không phải tất cả các câu hỏi đều yêu cầu điều này. Có những câu hỏi yêu cầu kiến thức địa lý chung hoặc phân tích biểu đồ, như câu hỏi về biểu đồ GDP."
+      }
+    ]
+  },
+  {
+    "index": 2547,
+    "id": "llava_d9364ec490_2547",
+    "image_name": "d9364ec490.jpg",
+    "image": "./data_store/shareGPT/images/d9364ec490.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có phải tất cả các đường trong biểu đồ đều có tốc độ tăng trưởng giống nhau không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, mỗi đường có tốc độ tăng trưởng khác nhau, với đường màu xanh dương và đỏ tăng nhanh hơn so với đường màu xanh lá cây."
+      }
+    ]
+  },
+  {
+    "index": 4552,
+    "id": "llava_3268095202_4552",
+    "image_name": "3268095202.jpg",
+    "image": "./data_store/shareGPT/images/3268095202.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Quốc gia nào có chi phí cao nhất trong biểu đồ?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Ấn Độ có chi phí cao nhất trong biểu đồ, với giá trị 180 USD."
+      }
+    ]
+  },
+  {
+    "index": 5574,
+    "id": "llava_291e529f64_5574",
+    "image_name": "291e529f64.jpg",
+    "image": "./data_store/shareGPT/images/291e529f64.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCác nền tảng mạng xã hội nào có tỷ lệ người dùng gần như tương đương nhau và sự khác biệt cụ thể là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "Twitter và LinkedIn có tỷ lệ người dùng gần như tương đương nhau, với Twitter là 59% và LinkedIn là 58%. Sự khác biệt giữa hai nền tảng này chỉ là 1%, cho thấy mức độ phổ biến tương đối ngang bằng."
+      }
+    ]
+  },
+  {
+    "index": 6924,
+    "id": "llava_22dfd23f97_6924",
+    "image_name": "22dfd23f97.jpg",
+    "image": "./data_store/shareGPT/images/22dfd23f97.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBiểu đồ hàm số f'(x) có ý nghĩa gì trong bài toán?"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ của hàm số f'(x) cho biết cách mà hàm số f(x) thay đổi, và thông qua số lượng các điểm cắt trục hoành, ta có thể xác định số điểm cực trị của hàm số f(x). Trong bài toán, người ta hỏi có bao nhiêu số nguyên m để hàm số y = f(x^2 + m) có đúng 3 điểm cực trị, điều này đòi hỏi ta phân tích dựa trên đồ thị của f'(x)."
+      }
+    ]
+  },
+  {
+    "index": 2615,
+    "id": "llava_7c7e3e3f95_2615",
+    "image_name": "7c7e3e3f95.jpg",
+    "image": "./data_store/shareGPT/images/7c7e3e3f95.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Các nhãn 'BST', 'LST' và 'Time' có thể đại diện cho điều gì trong sơ đồ này?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "'BST', 'LST' và 'Time' xuất hiện ở gần điểm số 1, có thể đại diện cho các yếu tố liên quan đến thời gian hoặc trạng thái của quy trình. 'BST' có thể là viết tắt của 'Bắt đầu', 'LST' có thể là 'Lưu trạng', và 'Time' có thể liên quan đến thời gian hoặc khoảng thời gian của từng giai đoạn trong quy trình."
+      }
+    ]
+  },
+  {
+    "index": 106,
+    "id": "llava_19a113df98_106",
+    "image_name": "19a113df98.jpg",
+    "image": "./data_store/shareGPT/images/19a113df98.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nGiai đoạn nào có sự chênh lệch lớn nhất giữa học sinh dân tộc và học sinh trợ học?"
+      },
+      {
+        "from": "gpt",
+        "value": "Giai đoạn 2013-2016 có sự chênh lệch lớn nhất giữa học sinh dân tộc và học sinh trợ học, với 76 học sinh dân tộc và 47 học sinh trợ học. Điều này tạo ra khoảng cách 29 học sinh giữa hai nhóm."
+      }
+    ]
+  },
+  {
+    "index": 4557,
+    "id": "llava_232b4c2550_4557",
+    "image_name": "232b4c2550.jpg",
+    "image": "./data_store/shareGPT/images/232b4c2550.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Thanh tiến trình của 'Product A' ở tùy chọn nào có giá trị cao nhất?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "'Product A' có giá trị cao nhất ở tùy chọn 2, với thanh tiến trình hiển thị 100%."
+      }
+    ]
+  },
+  {
+    "index": 9654,
+    "id": "llava_4d3cd781db_9654",
+    "image_name": "4d3cd781db.jpg",
+    "image": "./data_store/shareGPT/images/4d3cd781db.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Bố cục của các phần văn bản và hình ảnh như thế nào?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Bố cục của hình ảnh được sắp xếp theo dạng lưới, với các thẻ văn bản và hình ảnh nằm trong các khung hình chữ nhật nhỏ, trải đều khắp trang. Phía trên là tiêu đề lớn, tiếp theo là các thẻ nội dung hiển thị các vấn đề liên quan đến sử dụng mạng xã hội. Dưới cùng có biểu đồ và các biểu tượng thống kê về tình hình sử dụng mạng xã hội ở Việt Nam."
+      }
+    ]
+  },
+  {
+    "index": 7359,
+    "id": "llava_dfb377025c_7359",
+    "image_name": "dfb377025c.jpg",
+    "image": "./data_store/shareGPT/images/dfb377025c.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu đồ trong ảnh thể hiện điều gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ trong ảnh là biểu đồ cột, thể hiện số lượng khảo sát được thực hiện trong 10 ngày qua. Mỗi cột đại diện cho một ngày cụ thể và số lượng khảo sát đã hoàn thành trong ngày đó. Giá trị cụ thể cho các ngày lần lượt từ trái qua phải là 43, 43, 85, 86, 87, 19, 29, 96, 48, và 98."
+      }
+    ]
+  },
+  {
+    "index": 3611,
+    "id": "llava_c922f0eb94_3611",
+    "image_name": "c922f0eb94.jpg",
+    "image": "./data_store/shareGPT/images/c922f0eb94.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu đồ có chia tỉ lệ đúng giữa các năm không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, biểu đồ được chú thích rằng khoảng cách năm cần được chia chính xác, và từ hình ảnh có thể thấy rằng các năm 1990, 1991, và 1992 được phân bố đều trên trục hoành."
+      }
+    ]
+  },
+  {
+    "index": 6873,
+    "id": "llava_40076b4235_6873",
+    "image_name": "40076b4235.jpg",
+    "image": "./data_store/shareGPT/images/40076b4235.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBiểu đồ thứ hai có hiển thị tốc độ tăng trưởng của dịch vụ SMS Banking đối với khách hàng cá nhân không?"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, biểu đồ thứ hai chỉ hiển thị tốc độ tăng trưởng của các dịch vụ ngân hàng điện tử đối với khách hàng tổ chức, không bao gồm tốc độ tăng trưởng của dịch vụ SMS Banking đối với khách hàng cá nhân."
+      }
+    ]
+  },
+  {
+    "index": 8928,
+    "id": "llava_975da0bb86_8928",
+    "image_name": "975da0bb86.jpg",
+    "image": "./data_store/shareGPT/images/975da0bb86.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTrong số các loại nhiên liệu, loại nào có giá thấp nhất?"
+      },
+      {
+        "from": "gpt",
+        "value": "Loại nhiên liệu Do0,05 (được biểu thị bằng đường màu tím) có mức giá thấp nhất trong số các loại nhiên liệu được đề cập, với giá thường xuyên nằm dưới mức 100.000 trong suốt giai đoạn từ 21/3/2023 đến 31/3/2023."
+      }
+    ]
+  },
+  {
+    "index": 10647,
+    "id": "llava_97368c2a75_10647",
+    "image_name": "97368c2a75.jpg",
+    "image": "./data_store/shareGPT/images/97368c2a75.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Hai đường thẳng trong biểu đồ đại diện cho phương trình nào?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Hai đường thẳng trong biểu đồ đại diện cho hai phương trình khác nhau. Đường đầu tiên là Q = 2*P - 80, có hệ số dương cho thấy khi giá (P) tăng, số lượng (Q) cũng tăng. Đường thứ hai là Q = -4*P + 640, có hệ số âm cho thấy khi giá (P) tăng, số lượng (Q) giảm. Cả hai đường giao nhau tại một điểm nào đó trong biểu đồ, thể hiện sự cân bằng giữa cung và cầu."
+      }
+    ]
+  },
+  {
+    "index": 3257,
+    "id": "llava_c57a75fd11_3257",
+    "image_name": "c57a75fd11.jpg",
+    "image": "./data_store/shareGPT/images/c57a75fd11.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nQuốc gia nào có tỷ lệ tiêu thụ điện cao nhất trong năm 2021 theo Biểu đồ 5?"
+      },
+      {
+        "from": "gpt",
+        "value": "Theo Biểu đồ 5, Trung Quốc có tỷ lệ tiêu thụ điện cao nhất vào năm 2021, chiếm 35% tổng tiêu thụ điện toàn cầu. Hoa Kỳ đứng thứ hai với 18%, và Ấn Độ đứng thứ ba với 7%."
+      }
+    ]
+  },
+  {
+    "index": 9195,
+    "id": "llava_882d5f4a92_9195",
+    "image_name": "882d5f4a92.jpg",
+    "image": "./data_store/shareGPT/images/882d5f4a92.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSự phân bổ thời gian của công việc 'Tường' như thế nào?"
+      },
+      {
+        "from": "gpt",
+        "value": "Công việc 'Tường' bắt đầu vào khoảng ngày 8 tháng 6 và kết thúc vào ngày 15 tháng 6. Thanh ngang đại diện cho công việc này tương đối ngắn, cho thấy rằng đây là một công việc có thời gian hoàn thành nhanh so với các công việc khác trong dự án."
+      }
+    ]
+  },
+  {
+    "index": 434,
+    "id": "llava_096a45f62b_434",
+    "image_name": "096a45f62b.jpg",
+    "image": "./data_store/shareGPT/images/096a45f62b.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nVăn bản trong phần trên của hình ảnh là gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Văn bản trong phần trên của hình ảnh có nội dung là: 'Hướng dẫn cách vẽ biểu đồ trong Word chi tiết cực dễ'. Đây là một hướng dẫn chi tiết và dễ dàng để người dùng có thể vẽ biểu đồ trong Microsoft Word."
+      }
+    ]
+  },
+  {
+    "index": 9863,
+    "id": "llava_073b6642c9_9863",
+    "image_name": "073b6642c9.jpg",
+    "image": "./data_store/shareGPT/images/073b6642c9.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu đồ trong hình ảnh hiển thị dữ liệu về những gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ hiển thị dữ liệu về doanh thu hoặc một loại giá trị khác liên quan đến ba loại phòng khách sạn: Phòng Deluxe, Phòng Superior và Phòng Suite. Dữ liệu được phân chia theo ba năm là 2018, 2019 và 2020, với mỗi năm được thể hiện bằng một màu khác nhau (xanh dương, cam, xám). Giá trị này nằm trong khoảng từ $200,000 đến $1,600,000, nhưng tiêu đề của biểu đồ chưa được hoàn chỉnh."
+      }
+    ]
+  },
+  {
+    "index": 8279,
+    "id": "llava_f45e693565_8279",
+    "image_name": "f45e693565.jpg",
+    "image": "./data_store/shareGPT/images/f45e693565.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPhải chăng biểu đồ phân phối chuẩn trong mục 7 có hình dạng hình chuông?"
+      },
+      {
+        "from": "gpt",
+        "value": "Đúng, biểu đồ phân phối chuẩn trong mục 7 có hình dạng một chiếc chuông đặc trưng, thể hiện sự phân bố xác suất của các dữ liệu."
+      }
+    ]
+  },
+  {
+    "index": 3811,
+    "id": "llava_7b059b602b_3811",
+    "image_name": "7b059b602b.jpg",
+    "image": "./data_store/shareGPT/images/7b059b602b.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nĐiểm H nằm ở đâu trong biểu đồ?"
+      },
+      {
+        "from": "gpt",
+        "value": "Điểm H nằm trên đường chi phí trung bình (ATC), tại mức giá thấp nhất của ATC. Điểm này đại diện cho chi phí trung bình tối thiểu mà doanh nghiệp phải chi trả cho mỗi đơn vị sản xuất. Vị trí của điểm H cho thấy mức giá mà doanh nghiệp phải đạt được để không bị lỗ."
+      }
+    ]
+  },
+  {
+    "index": 3582,
+    "id": "llava_cbff2fbe73_3582",
+    "image_name": "cbff2fbe73.jpg",
+    "image": "./data_store/shareGPT/images/cbff2fbe73.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu đồ có so sánh lãi suất của các ngân hàng khác nhau cho kỳ hạn 3 tháng không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, biểu đồ so sánh lãi suất huy động của các ngân hàng khác nhau cho kỳ hạn 3 tháng, với mức lãi suất dao động từ 4.5% đến 5.5%."
+      }
+    ]
+  },
+  {
+    "index": 1535,
+    "id": "llava_928faff1c0_1535",
+    "image_name": "928faff1c0.jpg",
+    "image": "./data_store/shareGPT/images/928faff1c0.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó bao nhiêu mốc thời gian được biểu diễn trong biểu đồ?"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ biểu diễn 9 mốc thời gian, bao gồm: T1/2020, T6/2020, T12/2020, T5/2021, T6/2021, T7/2021, T8/2021, T9/2021 và T10/2021."
+      }
+    ]
+  },
+  {
+    "index": 488,
+    "id": "llava_888772996f_488",
+    "image_name": "888772996f.jpg",
+    "image": "./data_store/shareGPT/images/888772996f.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ lệ tăng trưởng có giảm mạnh vào tháng 3/2020 không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, tỷ lệ tăng trưởng giảm mạnh vào tháng 3/2020, như thể hiện qua đường màu xanh lá có sự giảm sâu trong giai đoạn này."
+      }
+    ]
+  },
+  {
+    "index": 520,
+    "id": "llava_e92d21747c_520",
+    "image_name": "e92d21747c.jpg",
+    "image": "./data_store/shareGPT/images/e92d21747c.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNhóm 'Nguyên vật liệu' nằm ở đâu trong biểu đồ và bao gồm bao nhiêu nguyên nhân cụ thể?"
+      },
+      {
+        "from": "gpt",
+        "value": "Nhóm 'Nguyên vật liệu' nằm ở vị trí đầu tiên trong biểu đồ, ở phía bên trái. Nhóm này bao gồm bốn nguyên nhân cụ thể được liệt kê dưới dạng 'Nguyên nhân 1', 'Nguyên nhân 2', 'Nguyên nhân 3', và 'Nguyên nhân 4'."
+      }
+    ]
+  },
+  {
+    "index": 6912,
+    "id": "llava_c85e1f6dc2_6912",
+    "image_name": "c85e1f6dc2.jpg",
+    "image": "./data_store/shareGPT/images/c85e1f6dc2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Nhân vật hoạt hình trong ảnh có vai trò gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Nhân vật hoạt hình trong ảnh là một người đàn ông đeo kính, mặc vest và có phong thái suy tư với tay vuốt cằm. Nhân vật này có thể tượng trưng cho một nhà phân tích chứng khoán hoặc một người có kiến thức chuyên môn, đang suy ngẫm về thị trường chứng khoán. Hình ảnh này góp phần làm cho bức ảnh trở nên sinh động và thu hút hơn."
+      }
+    ]
+  },
+  {
+    "index": 9674,
+    "id": "llava_51dd120ded_9674",
+    "image_name": "51dd120ded.jpg",
+    "image": "./data_store/shareGPT/images/51dd120ded.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nQuy trình quản lý khách hàng tiềm năng trong hình gồm mấy bước?"
+      },
+      {
+        "from": "gpt",
+        "value": "Quy trình quản lý khách hàng tiềm năng trong hình gồm tổng cộng 7 bước, bắt đầu từ việc xác định công cụ cho đến việc ưu tiên lead."
+      }
+    ]
+  },
+  {
+    "index": 1424,
+    "id": "llava_339af30754_1424",
+    "image_name": "339af30754.jpg",
+    "image": "./data_store/shareGPT/images/339af30754.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nVai trò của mũi tên xanh lá cây là gì?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mũi tên xanh lá cây trong hình ảnh có vai trò chỉ dẫn trực quan, hướng sự chú ý của người dùng từ phần văn bản phía trên xuống biểu đồ phía dưới. Điều này giúp nhấn mạnh thông điệp rằng người dùng cần chờ một thời gian để biểu đồ được hiển thị."
+      }
+    ]
+  },
+  {
+    "index": 8935,
+    "id": "llava_a479f1e366_8935",
+    "image_name": "a479f1e366.jpg",
+    "image": "./data_store/shareGPT/images/a479f1e366.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTại sao có một bước nhảy vọt trong lợi nhuận từ năm 2101?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mặc dù hình ảnh không cung cấp thông tin chi tiết về nguyên nhân của bước nhảy vọt trong lợi nhuận từ năm 2101, có thể suy đoán rằng điều này có thể do sự tăng trưởng đột phá trong hoạt động kinh doanh, mở rộng thị trường, hoặc các sự kiện kinh tế tích cực khác ảnh hưởng đến công ty."
+      }
+    ]
+  },
+  {
+    "index": 11087,
+    "id": "llava_8153.jpg_11087",
+    "image_name": "8153.jpg.jpg",
+    "image": "./data_store/shareGPT/images/8153.jpg.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Bảng chú thích có giúp phân biệt các loại đất khác nhau trên bản đồ không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, bảng chú thích đóng vai trò quan trọng trong việc giúp phân biệt các loại đất khác nhau trên bản đồ bằng cách liệt kê các màu sắc và ký hiệu tương ứng với từng loại đất, giúp người xem dễ dàng nhận biết và phân loại các khu vực trên bản đồ."
+      }
+    ]
+  },
+  {
+    "index": 1679,
+    "id": "llava_5a8a146148_1679",
+    "image_name": "5a8a146148.jpg",
+    "image": "./data_store/shareGPT/images/5a8a146148.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có bất kỳ vấn đề nào trong biểu đồ có tỉ lệ phần trăm dưới 17% không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Không, tất cả các vấn đề trong biểu đồ đều có tỉ lệ phần trăm từ 17% trở lên, với 17% là tỉ lệ nhỏ nhất."
+      }
+    ]
+  },
+  {
+    "index": 2286,
+    "id": "llava_a8767ec71c_2286",
+    "image_name": "a8767ec71c.jpg",
+    "image": "./data_store/shareGPT/images/a8767ec71c.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Biểu đồ cung cấp thông tin gì về sự khác biệt giữa các khu công nghiệp và các trục giao thông?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Biểu đồ cho thấy sự khác biệt rõ rệt giữa mức độ ô nhiễm tại các khu công nghiệp và các trục giao thông. Một số trục giao thông như Đường Phùng Hưng và Đường Điện Biên Phủ có mức độ ô nhiễm cao ngang ngửa hoặc vượt qua nhiều khu công nghiệp, phản ánh tầm quan trọng của giao thông đối với tình trạng ô nhiễm không khí tại các đô thị."
+      }
+    ]
+  },
+  {
+    "index": 3657,
+    "id": "llava_32545db795_3657",
+    "image_name": "32545db795.jpg",
+    "image": "./data_store/shareGPT/images/32545db795.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nVăn bản trung tâm của sơ đồ là gì và tại sao nó quan trọng?"
+      },
+      {
+        "from": "gpt",
+        "value": "Văn bản trung tâm của sơ đồ là 'SCM Supply Chain Management' (Quản lý Chuỗi Cung Ứng). Nó quan trọng vì đây là khái niệm bao trùm các yếu tố khác trong sơ đồ, thể hiện sự quản lý toàn diện của tất cả các hoạt động liên quan đến chuỗi cung ứng, từ quản lý, phân tích, logistics cho đến phân phối và lợi nhuận."
+      }
+    ]
+  },
+  {
+    "index": 4012,
+    "id": "llava_3f17f402a8_4012",
+    "image_name": "3f17f402a8.jpg",
+    "image": "./data_store/shareGPT/images/3f17f402a8.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChỉ số đô la Mỹ hiện tại là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "Chỉ số đô la Mỹ hiện tại được hiển thị là 103,24, cho thấy mức giảm 0,30 tương đương với -0,29% so với giá trị trước đó."
+      }
+    ]
+  },
+  {
+    "index": 4506,
+    "id": "llava_23011c9d4a_4506",
+    "image_name": "23011c9d4a.jpg",
+    "image": "./data_store/shareGPT/images/23011c9d4a.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Hình ảnh có đề cập đến các thông báo liên quan đến dữ liệu hoặc giám sát thông tin không?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Có, hình ảnh bao gồm các biểu tượng biểu đồ và kính lúp, gợi ý rằng thông báo có thể liên quan đến việc giám sát, phân tích dữ liệu, hoặc quản lý thông tin thông qua một ứng dụng di động."
+      }
+    ]
+  },
+  {
+    "index": 409,
+    "id": "llava_e119a603cd_409",
+    "image_name": "e119a603cd.jpg",
+    "image": "./data_store/shareGPT/images/e119a603cd.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Ngành Social science có số lượng trích dẫn trung bình ra sao so với các ngành khác?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Ngành Social science có số lượng trích dẫn trung bình khá thấp, chỉ khoảng hơn 1, tương tự với Mathematics/Computer. Điều này cho thấy lĩnh vực này cũng không nhận được nhiều trích dẫn trong các bài viết so với các ngành như Life sciences hay Neuroscience."
+      }
+    ]
+  },
+  {
+    "index": 1824,
+    "id": "llava_66ec3bd2de_1824",
+    "image_name": "66ec3bd2de.jpg",
+    "image": "./data_store/shareGPT/images/66ec3bd2de.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Doanh thu du lịch năm 2010 có tăng hay giảm so với năm 2000 và mức chênh lệch là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Doanh thu du lịch năm 2010 tăng so với năm 2000. Cụ thể, doanh thu năm 2000 là 496 tỉ USD, và năm 2010 là 977 tỉ USD, chênh lệch là 481 tỉ USD."
+      }
+    ]
+  },
+  {
+    "index": 10476,
+    "id": "llava_f6a7d82671_10476",
+    "image_name": "f6a7d82671.jpg",
+    "image": "./data_store/shareGPT/images/f6a7d82671.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Sự chênh lệch doanh thu giữa sản phẩm 2 và sản phẩm 3 là bao nhiêu phần trăm?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Sự chênh lệch doanh thu giữa sản phẩm 2 và sản phẩm 3 là 5%. Sản phẩm 2 chiếm 25% tổng doanh thu, trong khi sản phẩm 3 chiếm 20%."
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_803.png",
+    "image_name": "multi_col_803.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_803.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Saint Laurent đã vận hành bao nhiêu cửa hàng ở Tây Âu vào năm 2020?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "47"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20436.png",
+    "image_name": "multi_col_20436.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20436.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Vào năm nào, doanh số bán hàng trực tuyến chiếm 6,8% doanh số bán lẻ của đồ trang sức, đồng hồ và phụ kiện ở Đức?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2013"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20436.png",
+    "image_name": "multi_col_20436.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20436.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ lệ phần trăm doanh số bán lẻ của đồ trang sức, đồng hồ và phụ kiện ở Đức được bán trực tuyến vào năm 2013 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "6.8"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20436.png",
+    "image_name": "multi_col_20436.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20436.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSự gia tăng dự đoán trong doanh số bán hàng trực tuyến của đồ trang sức, đồng hồ và phụ kiện ở Đức vào năm 2018 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "11"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20505.png",
+    "image_name": "multi_col_20505.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20505.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có bao nhiêu công ty trong thị trường bảo hiểm của Hungary vào năm 2013?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "36"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20505.png",
+    "image_name": "multi_col_20505.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20505.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có bao nhiêu công ty trong thị trường bảo hiểm của Hungary vào năm 2019?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "23"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20569.png",
+    "image_name": "multi_col_20569.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20569.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nMỹ đã thực hiện bao nhiêu cuộc tấn công bằng máy bay không người lái ở Somalia vào năm 2019?"
+      },
+      {
+        "from": "gpt",
+        "value": "63"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_1536.png",
+    "image_name": "multi_col_1536.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_1536.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNăm nào cả hai giới đạt được tỷ lệ đậu cao nhất?"
+      },
+      {
+        "from": "gpt",
+        "value": "2011"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_1536.png",
+    "image_name": "multi_col_1536.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_1536.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ lệ phần trăm học sinh nữ đạt điểm C / 4 hoặc cao hơn ở Vương quốc Anh vào năm 2020 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "80.2"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_1536.png",
+    "image_name": "multi_col_1536.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_1536.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ lệ phần trăm nam sinh đạt điểm C/4 hoặc cao hơn vào năm 2020 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "72.3"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_852.png",
+    "image_name": "multi_col_852.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_852.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Ai được dự đoán sẽ có tỷ suất lợi nhuận gộp cao nhất?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Ted Baker"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_10.png",
+    "image_name": "multi_col_10.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_10.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Trong số những người dân thường bị giết trong sáu tháng đầu năm 2021, có bao nhiêu người là người da đen?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "74"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_41003.png",
+    "image_name": "multi_col_41003.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_41003.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNăm 2020, 50 nhà báo đã bị sát hại, giảm so với con số 894 người năm 2019."
+      },
+      {
+        "from": "gpt",
+        "value": "32"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_41003.png",
+    "image_name": "multi_col_41003.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_41003.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNăm nào số lượng nhà báo bị giết tương tự như số lượng năm 2020?"
+      },
+      {
+        "from": "gpt",
+        "value": "2019"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_100960.png",
+    "image_name": "multi_col_100960.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_100960.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCông nghệ di động thế hệ mới nào được dự đoán sẽ mang lại doanh thu thị trường trong những năm tới?"
+      },
+      {
+        "from": "gpt",
+        "value": "5G"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_100960.png",
+    "image_name": "multi_col_100960.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_100960.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Doanh thu dịch vụ 4G toàn cầu là bao nhiêu đô la vào năm 2018?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "555"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_60831.png",
+    "image_name": "multi_col_60831.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_60831.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có bao nhiêu phụ nữ ở Nga đã kết hôn vào năm 2010?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "524"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_60831.png",
+    "image_name": "multi_col_60831.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_60831.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó bao nhiêu người đàn ông đã kết hôn ở Nga vào năm 2010?"
+      },
+      {
+        "from": "gpt",
+        "value": "633"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_60831.png",
+    "image_name": "multi_col_60831.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_60831.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó bao nhiêu phụ nữ và 77 nam giới đã ly hôn trong số một nghìn cá nhân?"
+      },
+      {
+        "from": "gpt",
+        "value": "120"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_40311.png",
+    "image_name": "multi_col_40311.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_40311.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Số lượng ứng dụng trung bình cho mỗi bài đăng việc làm trên LinkedIn ở Hoa Kỳ là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2.5"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_60316.png",
+    "image_name": "multi_col_60316.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_60316.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó bao nhiêu tài sản của Starwood Hotels & Resorts ở khu vực Châu Á Thái Bình Dương vào năm 2015?"
+      },
+      {
+        "from": "gpt",
+        "value": "317"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20350.png",
+    "image_name": "multi_col_20350.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20350.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNgười dẫn chương trình đêm khuya nào có xếp hạng khả quan cao nhất?"
+      },
+      {
+        "from": "gpt",
+        "value": "Jimmy Fallon"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20741.png",
+    "image_name": "multi_col_20741.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20741.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó bao nhiêu công ty Thụy Điển hoạt động trên thị trường tổng thể từ năm 2011 đến năm 2018?"
+      },
+      {
+        "from": "gpt",
+        "value": "315"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20741.png",
+    "image_name": "multi_col_20741.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20741.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó bao nhiêu công ty Thụy Điển hoạt động trên cả thị trường trong nước và thị trường tổng thể từ năm 2011 đến năm 2018?"
+      },
+      {
+        "from": "gpt",
+        "value": "361"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_20159.png",
+    "image_name": "multi_col_20159.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_20159.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Quốc gia nào có tỷ lệ nhựa PET và chai nhựa được thu gom cao nhất?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Germany"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_1009.png",
+    "image_name": "multi_col_1009.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_1009.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Công ty nào chiếm 15,4% thị phần WFE toàn cầu vào năm 2020?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "ASML"
+      }
+    ]
+  },
+  {
+    "id": "llava_multi_col_796.png",
+    "image_name": "multi_col_796.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/multi_col_796.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nJack in the Box Inc. sở hữu bao nhiêu nhà hàng vào năm 2020?"
+      },
+      {
+        "from": "gpt",
+        "value": "144"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_100878.png",
+    "image_name": "two_col_100878.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_100878.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Mạng xã hội phổ biến nhất cho phụ nữ là gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "WhatsApp"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_101214.png",
+    "image_name": "two_col_101214.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_101214.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNăm nào GDP thực tế bình quân đầu người của Montana là cao nhất vào năm 2019?"
+      },
+      {
+        "from": "gpt",
+        "value": "2000"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_101579.png",
+    "image_name": "two_col_101579.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_101579.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThể loại nào chiếm năm phần trăm trong số 100 ghim hàng đầu vào năm 2018?"
+      },
+      {
+        "from": "gpt",
+        "value": "Crafts"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_104683.png",
+    "image_name": "two_col_104683.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_104683.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTừ năm nào dân số nhập cư ở Pháp tăng nhẹ?"
+      },
+      {
+        "from": "gpt",
+        "value": "1921"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_104683.png",
+    "image_name": "two_col_104683.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_104683.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ lệ người nhập cư ở Pháp vào năm 2015 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "9.3"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_104683.png",
+    "image_name": "two_col_104683.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_104683.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Năm 1931, 6,6% dân số Pháp là người nhập cư, con số này tăng lên 7,1% vào năm 1936.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "6.6"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_1716.png",
+    "image_name": "two_col_1716.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_1716.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Từ năm nào tiền lương trung bình hàng năm ở Pháp đã tăng lên?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2000"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_2120.png",
+    "image_name": "two_col_2120.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_2120.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBang nào của Hoa Kỳ có một số động vật hoang dã hung dữ nhất ở Bắc Mỹ?"
+      },
+      {
+        "from": "gpt",
+        "value": "Alaska"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_22383.png",
+    "image_name": "two_col_22383.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_22383.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Chỉ số giá tiêu dùng hàng tháng của tất cả người tiêu dùng thành thị ở Hoa Kỳ vào tháng 5 năm 2021 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "151.25"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_23773.png",
+    "image_name": "two_col_23773.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_23773.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Samsung có thị phần lớn nhất trên nền tảng nào vào năm 2018?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Tizen"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_23907.png",
+    "image_name": "two_col_23907.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_23907.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSlovakia có bao nhiêu người chết do tai nạn giao thông đường bộ vào năm 2019?"
+      },
+      {
+        "from": "gpt",
+        "value": "270"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_24274.png",
+    "image_name": "two_col_24274.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_24274.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Thương hiệu nào đã đăng ký doanh số bán hàng trị giá 263 triệu euro vào năm 2019?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Moschino"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_24282.png",
+    "image_name": "two_col_24282.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_24282.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNgười dùng điện thoại thông minh ở Nhật Bản đã dành bao nhiêu phút để truy cập internet mỗi ngày?"
+      },
+      {
+        "from": "gpt",
+        "value": "38"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_3712.png",
+    "image_name": "two_col_3712.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_3712.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Có bao nhiêu người di cư đã chết khi băng qua Địa Trung Hải giữa tháng 1 và tháng 6 năm 2021?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "827"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_40213.png",
+    "image_name": "two_col_40213.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_40213.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ giá hối đoái trung bình từ đô la Singapore sang rupee Ấn Độ vào năm 2020 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1.86"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_42998.png",
+    "image_name": "two_col_42998.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_42998.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Mạng xã hội chuyên nghiệp nào đã đứng thứ ba ở Ý vào tháng 6 năm 2020?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LinkedIn"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_42998.png",
+    "image_name": "two_col_42998.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_42998.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nFacebook đã có bao nhiêu người dùng ở Ý vào năm 2020?"
+      },
+      {
+        "from": "gpt",
+        "value": "36.9"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_42998.png",
+    "image_name": "two_col_42998.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_42998.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nVào tháng 6 năm 2020, Instagram có bao nhiêu người dùng?"
+      },
+      {
+        "from": "gpt",
+        "value": "27.7"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_4925.png",
+    "image_name": "two_col_4925.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_4925.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ giá hối đoái trung bình từ đô la Singapore sang đô la Mỹ vào năm 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "1.38"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_5319.png",
+    "image_name": "two_col_5319.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_5319.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Chuỗi siêu thị hàng đầu ở Tây Ban Nha vào năm 2020 là gì?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Mercadona"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_5319.png",
+    "image_name": "two_col_5319.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_5319.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChuỗi siêu thị nào nắm giữ 8,6% thị phần tại Tây Ban Nha vào năm 2020?"
+      },
+      {
+        "from": "gpt",
+        "value": "Carrefour"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_5319.png",
+    "image_name": "two_col_5319.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_5319.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nChuỗi cửa hàng Đức nào đã chiếm 6,3% thị phần tại Tây Ban Nha vào năm 2020?"
+      },
+      {
+        "from": "gpt",
+        "value": "Lidl"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_60276.png",
+    "image_name": "two_col_60276.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_60276.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Quốc gia nào chiếm hơn bảy phần trăm giá trị xuất khẩu da và da năm 2018?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "France"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_60686.png",
+    "image_name": "two_col_60686.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_60686.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ lệ nữ so với nam trong giáo dục đại học ở Malaysia vào năm 2008 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "1.33"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_60686.png",
+    "image_name": "two_col_60686.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_60686.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ lệ nữ so với nam trong giáo dục đại học năm 2017 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1.18"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_61188.png",
+    "image_name": "two_col_61188.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_61188.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNăm nào tỷ lệ lạm phát của Pháp đạt đỉnh?"
+      },
+      {
+        "from": "gpt",
+        "value": "2008"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_61188.png",
+    "image_name": "two_col_61188.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_61188.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ lệ lạm phát của Pháp vào năm 2020 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "0.5"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_61211.png",
+    "image_name": "two_col_61211.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_61211.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Chỉ số hài lòng của khách hàng Mỹ của các khách sạn Wyndham vào năm 2020 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "72"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_61211.png",
+    "image_name": "two_col_61211.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_61211.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nĐiểm Chỉ số hài lòng của khách hàng Mỹ của Wyndham vào năm 2016 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "70"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_81673.png",
+    "image_name": "two_col_81673.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_81673.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Quốc gia nào chiếm 12% tổng diện tích rừng toàn cầu vào năm 2020?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Brazil"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_82108.png",
+    "image_name": "two_col_82108.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_82108.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Chỉ số điểm của Jamaica vào năm 2020 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "5.99"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_82108.png",
+    "image_name": "two_col_82108.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_82108.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Kể từ năm nào, chỉ số rủi ro đã có xu hướng giảm?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2017"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_83354.png",
+    "image_name": "two_col_83354.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_83354.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAlibaba, Amazon và eBay kết hợp chiếm bao nhiêu phần trăm thị phần giá trị thị trường bán lẻ internet tổng thể ở Nga vào năm 2018?"
+      },
+      {
+        "from": "gpt",
+        "value": "16"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_898.png",
+    "image_name": "two_col_898.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_898.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nGiá vé trung bình trong Hiệp hội Bóng rổ Quốc gia trong mùa giải 2015/16 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "55.88"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_100493.png",
+    "image_name": "two_col_100493.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_100493.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Khoảng bao nhiêu phần trăm phụ huynh dựa vào độ tuổi của con cái để quyết định số tiền tiêu vặt?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "29"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_100718.png",
+    "image_name": "two_col_100718.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_100718.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nGiá trị của các khoản vay của CIC Lyonnaise de Banque vào năm 2019 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "31846"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_101140.png",
+    "image_name": "two_col_101140.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_101140.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThe Simpsons đã nhận được bao nhiêu lượt thích trên Facebook vào tháng 8 năm 2014?"
+      },
+      {
+        "from": "gpt",
+        "value": "74.4"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_101170.png",
+    "image_name": "two_col_101170.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_101170.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoanh thu tài trợ bộ dụng cụ của Juventus FC là bao nhiêu trong mùa giải 2015/16?"
+      },
+      {
+        "from": "gpt",
+        "value": "26"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_102054.png",
+    "image_name": "two_col_102054.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_102054.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBao nhiêu tấn CO2 đã được phát ra từ việc đốt than vào năm 1971?"
+      },
+      {
+        "from": "gpt",
+        "value": "5230"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_102054.png",
+    "image_name": "two_col_102054.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_102054.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nĐỉnh cao toàn cầu của lượng khí thải CO2 từ việc đốt than vào năm 2018 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "14766"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_102435.png",
+    "image_name": "two_col_102435.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_102435.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tỷ lệ người Na Uy cho rằng vụ tấn công Stockholm không tạo ra nỗi sợ hãi lớn hơn về các cuộc tấn công khủng bố ở nước họ là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "44.5"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_102898.png",
+    "image_name": "two_col_102898.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_102898.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Phân khúc Michael Kors của Capri Holdings đã tạo ra bao nhiêu phần trăm vào năm 2020?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "74.82"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_102995.png",
+    "image_name": "two_col_102995.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_102995.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nVương quốc Anh đã nhận được bao nhiêu phần trăm các thỏa thuận M&A trong năm 2019?"
+      },
+      {
+        "from": "gpt",
+        "value": "26"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_104700.png",
+    "image_name": "two_col_104700.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_104700.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nGiá trị của ROE vào năm 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "15.7"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_158.png",
+    "image_name": "two_col_158.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_158.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Tập đoàn Bridgestone đã tạo ra bao nhiêu tiền từ hoạt động kinh doanh lốp xe của mình vào năm 2019?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "27.23"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_20322.png",
+    "image_name": "two_col_20322.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_20322.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "GDP của Bỉ vào năm 2020 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "451176.9"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_20322.png",
+    "image_name": "two_col_20322.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_20322.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "GDP của Bỉ vào năm 2011 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "375967.8"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_2055.png",
+    "image_name": "two_col_2055.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_2055.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ lệ thất nghiệp ở Venezuela vào năm 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "9.38"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_20719.png",
+    "image_name": "two_col_20719.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_20719.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCó bao nhiêu công nhân toàn thời gian được tuyển dụng ở Hoa Kỳ vào tháng 5 năm 2021?"
+      },
+      {
+        "from": "gpt",
+        "value": "126.38"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_2138.png",
+    "image_name": "two_col_2138.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_2138.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Nợ quốc gia của Trung Quốc là bao nhiêu phần trăm trong tổng sản phẩm quốc nội năm 2019?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "57.05"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_21800.png",
+    "image_name": "two_col_21800.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_21800.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBao nhiêu tấn sản phẩm thép cán nóng được sản xuất tại Hoa Kỳ vào năm 2019?"
+      },
+      {
+        "from": "gpt",
+        "value": "87.25"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_22179.png",
+    "image_name": "two_col_22179.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_22179.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTính đến tháng 9 năm 2020, bao nhiêu phần trăm trong tổng số vốn đầu tư mà Mexico nhận được là từ ngành sản xuất?"
+      },
+      {
+        "from": "gpt",
+        "value": "40.13"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_22364.png",
+    "image_name": "two_col_22364.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_22364.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoanh thu bán hàng thương mại điện tử B2C ở Trung Quốc đã tăng bao nhiêu vào năm 2016?"
+      },
+      {
+        "from": "gpt",
+        "value": "25.9"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_23750.png",
+    "image_name": "two_col_23750.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_23750.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Năm 2021, doanh số bán hàng tạp hóa chiếm bao nhiêu phần trăm trong tổng doanh số bán hàng của Walmart tại Mỹ?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "56.3"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_24616.png",
+    "image_name": "two_col_24616.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_24616.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNhu cầu thép của Hàn Quốc vào năm 2008 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "54"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_258.png",
+    "image_name": "two_col_258.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_258.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSố lượng gia súc toàn cầu vào năm 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "987.75"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_3220.png",
+    "image_name": "two_col_3220.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_3220.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ lệ thất nghiệp ở Somalia vào năm 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "11.4"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_3582.png",
+    "image_name": "two_col_3582.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_3582.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ lệ thất nghiệp ở Uganda vào năm 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "1.92"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_3822.png",
+    "image_name": "two_col_3822.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_3822.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nNăm 2019, có bao nhiêu người ở Virginia là người da đen hoặc người Mỹ gốc Phi?"
+      },
+      {
+        "from": "gpt",
+        "value": "1625942"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_40178.png",
+    "image_name": "two_col_40178.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_40178.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Năm 2013, thị phần webcam là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "48"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_40232.png",
+    "image_name": "two_col_40232.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_40232.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "GDP của Tokyo dự kiến sẽ đạt được vào năm 2030 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "40"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_4148.png",
+    "image_name": "two_col_4148.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_4148.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Mức lương trung bình hàng năm của Slovakia vào năm 2019 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "15017"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_42594.png",
+    "image_name": "two_col_42594.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_42594.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Doanh thu tổng cộng của các cơ quan quảng cáo của Hoa Kỳ vào năm 2019 là bao nhiêu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "51.9"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_43126.png",
+    "image_name": "two_col_43126.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_43126.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoanh thu quảng cáo của Đức vào năm 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "3922"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_43126.png",
+    "image_name": "two_col_43126.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_43126.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoanh thu quảng cáo hiển thị kỹ thuật số của Đức cho năm 2019 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "3613"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_44004.png",
+    "image_name": "two_col_44004.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_44004.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Năm 2018, chi tiêu cho cá và hải sản chiếm bao nhiêu phần trăm trong tổng chi tiêu của các hộ gia đình Mỹ?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "16"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_5327.png",
+    "image_name": "two_col_5327.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_5327.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nGiá trị xuất khẩu của các sản phẩm Ayurvedic và thảo dược từ Ấn Độ trong năm tài chính 2020 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "428.08"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_5896.png",
+    "image_name": "two_col_5896.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_5896.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTổng trữ lượng than nâu mềm của New Zealand vào năm 2018 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "6750"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_60182.png",
+    "image_name": "two_col_60182.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_60182.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ lệ người không sở hữu bất kỳ bản thu âm nào tính đến năm 2018 là bao nhiêu?"
+      },
+      {
+        "from": "gpt",
+        "value": "37"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_60514.png",
+    "image_name": "two_col_60514.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_60514.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Phần mềm cơ sở dữ liệu chiếm bao nhiêu phần trăm trong ngành công nghiệp phần mềm toàn cầu?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "4.1"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_60514.png",
+    "image_name": "two_col_60514.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_60514.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Phần mềm ứng dụng chiếm bao nhiêu phần trăm trong ngành công nghiệp phần mềm toàn cầu trong năm kết thúc vào tháng 6 năm 2019?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "52.3"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_60750.png",
+    "image_name": "two_col_60750.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_60750.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTỷ lệ bao nhiêu phần trăm các doanh nghiệp Ấn Độ cho thấy sự suy giảm trong mức tồn kho của họ?"
+      },
+      {
+        "from": "gpt",
+        "value": "30"
+      }
+    ]
+  },
+  {
+    "id": "llava_two_col_61269.png",
+    "image_name": "two_col_61269.png",
+    "image": "./data_store/chartQA/ChartQA-Dataset/test/png/two_col_61269.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Máy hút bụi hộp chiếm bao nhiêu phần trăm giá trị thị trường Pháp vào năm 2020?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "28"
+      }
+    ]
+  }
+]
