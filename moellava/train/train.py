@@ -982,7 +982,7 @@ def preprocess(
         return preprocess_mpt(sources, tokenizer)
     if conversation_lib.default_conversation.version.startswith("qwen"):
         return preprocess_qwen_2(sources, tokenizer, has_image=has_image)
-    if conversation_lib.default_conversation.version.startswith("qwen_v2"):
+    if conversation_lib.default_conversation.version.startswith("qwen_2"):
         return preprocess_qwen_2(sources, tokenizer, has_image=has_image)
     # add end signal and concatenate together
     conversations = []
