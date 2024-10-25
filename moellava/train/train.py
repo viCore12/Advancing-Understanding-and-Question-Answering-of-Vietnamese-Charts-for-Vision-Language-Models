@@ -1398,8 +1398,9 @@ def train():
         # import ipdb
         # ipdb.set_trace()
         if 'qwen' in model_args.model_name_or_path.lower() and '1.5' not in model_args.model_name_or_path.lower():
-            from moellava.model.language_model.qwen.tokenization_qwen import QWenTokenizer
-            tokenizer = QWenTokenizer.from_pretrained(
+            # from moellava.model.language_model.qwen.tokenization_qwen import QWenTokenizer
+            from transformers import Qwen2Tokenizer
+            tokenizer = Qwen2Tokenizer.from_pretrained(
                 model_args.model_name_or_path,
                 cache_dir=training_args.cache_dir,
                 model_max_length=training_args.model_max_length,
