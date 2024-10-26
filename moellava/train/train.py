@@ -57,6 +57,8 @@ def rank0_print(*args):
     if local_rank == 0:
         print(*args)
 
+from packaging import version
+IS_TOKENIZER_GREATER_THAN_0_14 = version.parse(tokenizers.__version__) >= version.parse('0.14')
 
 @dataclass
 class ModelArguments:
