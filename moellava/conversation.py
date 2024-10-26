@@ -112,7 +112,7 @@ class Conversation:
                     ret += ""
         else:
             raise ValueError(f"Invalid style: {self.sep_style}")
-
+        print("Check prompt:", ret)
         return ret
 
     def append_message(self, role, message):
@@ -442,7 +442,7 @@ conv_qwen_2 = Conversation(
     sep=" ",
     sep2="<|endoftext|>",
 )
-default_conversation = conv_vicuna_v1
+default_conversation = conv_qwen_2
 conv_templates = {
     "default": conv_vicuna_v0,
     "v0": conv_vicuna_v0,

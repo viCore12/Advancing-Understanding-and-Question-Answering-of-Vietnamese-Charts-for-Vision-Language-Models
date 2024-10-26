@@ -15,5 +15,5 @@ if a == '4' and int(b) >= 36:
     from .model import LlavaStablelmForCausalLM
     from .model import MoELLaVAStablelmForCausalLM
 if a == '4' and int(b) >= 37:
-    from .model import LlavaQwen1_5ForCausalLM
+    from .model import LlavaQwen2ForCausalLM
     from .model import MoELLaVAQwen1_5ForCausalLM

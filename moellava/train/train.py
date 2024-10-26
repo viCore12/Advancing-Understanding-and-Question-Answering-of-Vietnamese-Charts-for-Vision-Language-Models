@@ -154,6 +154,7 @@ class TrainingArguments(transformers.TrainingArguments):
     lora_bias: str = "none"
     mm_projector_lr: Optional[float] = None #it set lr for mm_projector
     group_by_modality_length: bool = field(default=False)
+    max_grad_norm=1.0
 
 
 
@@ -1292,7 +1293,7 @@ def train():
             #         **bnb_model_from_pretrained_args
             #     )
             elif 'qwen' in model_args.model_name_or_path.lower() and any(version in model_args.model_name_or_path.lower() for version in ['1.5', '2']):
-                model = LlavaQwen1_5ForCausalLM.from_pretrained(
+                model = LlavaQwen2ForCausalLM.from_pretrained(
                     model_args.model_name_or_path,
                     cache_dir=training_args.cache_dir,
                     # attn_implementation="flash_attention_2",
@@ -1637,7 +1638,6 @@ def train():
     if model_args.tune_mm_mlp_adapter:
         model.requires_grad_(False)
         for p in model.get_model().mm_projector.parameters():
-            print(p)
             p.requires_grad = True
         print("MM Projector Trainable")              
     for name, param in model.named_parameters():
@@ -1645,7 +1645,6 @@ def train():
             rank0_print(name)
     rank0_print(Color.GREEN+'Final model \n'+Color.END, model)
     # sys.exit()
-    rank0_print(Color.PURPLE+'mm_projector_lr \n'+Color.END, training_args.mm_projector_lr, model.config.mm_projector_lr)
     data_module = make_supervised_data_module(tokenizer=tokenizer,
                                               data_args=data_args)
     trainer = LLaVATrainer(model=model,

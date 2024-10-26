@@ -26,23 +26,23 @@ from ..llava_arch import LlavaMetaModel, LlavaMetaForCausalLM
 import torch.distributed as dist
 
 
-class LlavaQwen1_5Config(Qwen2Config):
-    model_type = "llava_qwen1_5"
+class LlavaQwen2Config(Qwen2Config):
+    model_type = "llava_qwen2"
 
 
-class LlavaQwen1_5Model(LlavaMetaModel, Qwen2Model):
-    config_class = LlavaQwen1_5Config
+class LlavaQwen2Model(LlavaMetaModel, Qwen2Model):
+    config_class = LlavaQwen2Config
 
     def __init__(self, config: Qwen2Config):
-        super(LlavaQwen1_5Model, self).__init__(config)
+        super(LlavaQwen2Model, self).__init__(config)
 
 
-class LlavaQwen1_5ForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
-    config_class = LlavaQwen1_5Config
+class LlavaQwen2ForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
+    config_class = LlavaQwen2Config
 
     def __init__(self, config):
         super(Qwen2ForCausalLM, self).__init__(config)
-        self.model = LlavaQwen1_5Model(config)
+        self.model = LlavaQwen2Model(config)
         self.vocab_size = config.vocab_size
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
 
@@ -128,5 +128,5 @@ class LlavaQwen1_5ForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
         )
         return model_inputs
 
-AutoConfig.register("llava_qwen1_5", LlavaQwen1_5Config)
-AutoModelForCausalLM.register(LlavaQwen1_5Config, LlavaQwen1_5ForCausalLM)
+AutoConfig.register("llava_qwen2", LlavaQwen2Config)
+AutoModelForCausalLM.register(LlavaQwen2Config, LlavaQwen2ForCausalLM)
