@@ -112,7 +112,6 @@ class Conversation:
                     ret += ""
         else:
             raise ValueError(f"Invalid style: {self.sep_style}")
-        print("Check prompt:", ret)
         return ret
 
     def append_message(self, role, message):
