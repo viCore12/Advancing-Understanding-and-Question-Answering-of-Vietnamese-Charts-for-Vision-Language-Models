@@ -1518,7 +1518,7 @@ def train():
                 padding_side="right",
                 use_fast=False,
             )
-            tokenizer.add_special_tokens({'unk_token': '<|extra_0|>'})
+            tokenizer.add_special_tokens({'unk_token': '<|extra_0|>','eos_token': '<|endoftext|>'})
         elif 'phi' in model_args.model_name_or_path.lower():
             tokenizer = transformers.AutoTokenizer.from_pretrained(
                 model_args.model_name_or_path,
