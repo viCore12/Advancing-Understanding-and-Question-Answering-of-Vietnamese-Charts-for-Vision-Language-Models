@@ -450,7 +450,7 @@ conv_templates = {
     "mistral": conv_mistral,
     "minicpm": conv_minicpm,
     "phi": conv_phi,
-    "qwen": conv_qwen_2,
+    "qwen": conv_phi,
     "qwen_2": conv_qwen_2,
     "stablelm": conv_stablelm,
     "vicuna_v1": conv_vicuna_v1,
