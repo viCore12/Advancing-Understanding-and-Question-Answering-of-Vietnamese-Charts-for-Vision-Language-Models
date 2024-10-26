@@ -679,8 +679,13 @@ def preprocess_qwen_2(
     conv = conversation_lib.default_conversation.copy()
     roles = {"human": conv.roles[0], "gpt": conv.roles[1]}
 
+    # print('00000000000', sources)
     # Apply prompt templates
     conversations = []
+    # sys.exit()
+
+    # import ipdb
+    # ipdb.set_trace()
     for i, source in enumerate(sources):
         if roles[source[0]["from"]] != conv.roles[0]:
             # Skip the first one if it is not from human
@@ -692,11 +697,12 @@ def preprocess_qwen_2(
             assert role == conv.roles[j % 2], f"{i}"
             conv.append_message(role, sentence["value"])
         conversations.append(conv.get_prompt())
-
+    # print(11111111, conversations)
     # Tokenize conversations
-
+    # print('before tokenizer_image_token', conversations)
     if has_image:
         input_ids = torch.stack([tokenizer_image_token(prompt, tokenizer, return_tensors='pt') for prompt in conversations], dim=0)
+        # print(2222222222222, input_ids.shape)
     else:
         input_ids = tokenizer(
             conversations,
@@ -706,19 +712,20 @@ def preprocess_qwen_2(
             truncation=True,
         ).input_ids
 
+    # print('after tokenizer_image_token', input_ids)
     targets = input_ids.clone()
 
-    assert conv.sep_style == conversation_lib.SeparatorStyle.QWEN_2
-
+    assert conv.sep_style == conversation_lib.SeparatorStyle.TWO
+    # print(tokenizer)
     # Mask targets
     sep = conv.sep + conv.roles[1] + ": "
     for conversation, target in zip(conversations, targets):
         total_len = int(target.ne(tokenizer.pad_token_id).sum())
-
+        # print('total_len', total_len)
         rounds = conversation.split(conv.sep2)
-        rounds_len = len(rounds)
-        cur_len = 0
-        # target[:cur_len] = IGNORE_INDEX
+        # print('len(rounds)', len(rounds))
+        cur_len = 1
+        target[:cur_len] = IGNORE_INDEX
         for i, rou in enumerate(rounds):
             if rou == "":
                 break
@@ -729,24 +736,11 @@ def preprocess_qwen_2(
             parts[0] += sep
 
             if has_image:
-                round_ids = tokenizer_image_token(rou, tokenizer)
-                instruction_ids = tokenizer_image_token(parts[0], tokenizer)
-                equal_parts = [x == y for x, y in zip(round_ids, instruction_ids)]
-
-                instruction_len = equal_parts.index(False) if False in equal_parts else len(equal_parts)
-                round_len = len(round_ids)
-
+                round_len = len(tokenizer_image_token(rou, tokenizer)) + 1  # for eos_token
+                instruction_len = len(tokenizer_image_token(parts[0], tokenizer)) - 1  # instruction_len is before th
             else:
-                round_ids = tokenizer(rou).input_ids
-                instruction_ids = tokenizer(parts[0]).input_ids
-                equal_parts = [x == y for x, y in zip(round_ids, instruction_ids)]
-            
-                instruction_len = equal_parts.index(False) if False in equal_parts else len(equal_parts)
-                round_len = len(round_ids)
-
-            if i != 0 and not tokenizer.legacy and IS_TOKENIZER_GREATER_THAN_0_14:
-                round_len += 1
-                instruction_len += 1
+                round_len = len(tokenizer(rou).input_ids)
+                instruction_len = len(tokenizer(parts[0]).input_ids) - 2
 
             target[cur_len : cur_len + instruction_len] = IGNORE_INDEX
 
@@ -754,7 +748,9 @@ def preprocess_qwen_2(
         target[cur_len:] = IGNORE_INDEX
 
         if cur_len < tokenizer.model_max_length:
-            if cur_len != total_len + rounds_len - 2:
+            # import ipdb
+            # ipdb.set_trace()
+            if cur_len != total_len:
                 target[:] = IGNORE_INDEX
                 print(
                     f"WARNING: tokenization mismatch: {cur_len} vs. {total_len}."
@@ -971,7 +967,8 @@ def preprocess(
         return preprocess_plain(sources, tokenizer)
     if conversation_lib.default_conversation.sep_style == conversation_lib.SeparatorStyle.LLAMA_2:
         return preprocess_llama_2(sources, tokenizer, has_image=has_image)
-    if conversation_lib.default_conversation.version.startswith("phi"): # for phi and qwen
+    if conversation_lib.default_conversation.version.startswith("phi") or \
+        conversation_lib.default_conversation.version.startswith("qwen"): # for phi and qwen
         return preprocess_phi(sources, tokenizer, has_image=has_image)
     if conversation_lib.default_conversation.version.startswith("stablelm"):  # stablelm same as phi
         return preprocess_phi(sources, tokenizer, has_image=has_image)
@@ -984,8 +981,6 @@ def preprocess(
         return preprocess_v1(sources, tokenizer, has_image=has_image)
     if conversation_lib.default_conversation.version == "mpt":
         return preprocess_mpt(sources, tokenizer)
-    if conversation_lib.default_conversation.version.startswith("qwen"):
-        return preprocess_phi(sources, tokenizer, has_image=has_image)
     if conversation_lib.default_conversation.version.startswith("qwen_2"):
         return preprocess_qwen_2(sources, tokenizer, has_image=has_image)
     # add end signal and concatenate together
@@ -1518,7 +1513,7 @@ def train():
                 padding_side="right",
                 use_fast=False,
             )
-            tokenizer.add_special_tokens({'unk_token': '<|extra_0|>','eos_token': '<|endoftext|>'})
+            tokenizer.add_special_tokens({'unk_token': '<|extra_0|>'})
         elif 'phi' in model_args.model_name_or_path.lower():
             tokenizer = transformers.AutoTokenizer.from_pretrained(
                 model_args.model_name_or_path,

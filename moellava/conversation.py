@@ -434,14 +434,15 @@ conv_qwen_2 = Conversation(
     system="A chat between a curious user and an artificial intelligence assistant. "
     "The assistant gives helpful, detailed, and polite answers to the user's questions.",
     roles=("USER", "ASSISTANT"),
-    version="qwen_v2",
+    version="qwen",  # replace
     messages=(),
     offset=0,
-    sep_style=SeparatorStyle.QWEN_2,
+    sep_style=SeparatorStyle.TWO,
     sep=" ",
-    sep2="<|endoftext|>",
+    sep2="<|endoftext|>",  # replace with eos_token
 )
-default_conversation = conv_qwen_2
+
+default_conversation = conv_vicuna_v1
 conv_templates = {
     "default": conv_vicuna_v0,
     "v0": conv_vicuna_v0,
