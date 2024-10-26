@@ -1568,7 +1568,10 @@ def train():
     elif model_args.version == "v0.5":
         tokenizer.pad_token = tokenizer.unk_token
     else:
-        tokenizer.pad_token = tokenizer.unk_token
+        if tokenizer.unk_token:
+            tokenizer.pad_token = tokenizer.unk_token
+        else:
+            tokenizer.legacy == False
         # =============================================================================================================
         model.config.pad_token_id = tokenizer.pad_token_id
         # =============================================================================================================
