@@ -85,7 +85,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
             elif 'openchat' in model_base.lower() or 'mistral' in model_base.lower():
                 model = LlavaMistralForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
-            elif 'qwen' in model_base.lower() and '1.5' in model_base.lower():
+            elif 'qwen' in model_base.lower() and any(version in model_base.lower() for version in ['1.5', '2']):
                 model = LlavaQwen2ForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
                 model.config.eos_token_id = tokenizer.eos_token_id
             elif 'phi' in model_base.lower():
