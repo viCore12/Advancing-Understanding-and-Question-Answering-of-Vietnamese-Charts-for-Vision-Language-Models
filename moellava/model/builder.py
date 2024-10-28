@@ -76,14 +76,14 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
             tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False, padding_side=padding_side)
             print('Loading LLaVA from base model...')
 
-            if 'qwen' in model_base.lower() and '1.5' not in model_base.lower():
-                model = LlavaQWenForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
-                model.generation_config = GenerationConfig.from_pretrained(model_base, pad_token_id=tokenizer.pad_token_id)
-                # model.generation_config.repetition_penalty = None
+            # if 'qwen' in model_base.lower() and '1.5' not in model_base.lower():
+            #     model = LlavaQWenForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
+            #     model.generation_config = GenerationConfig.from_pretrained(model_base, pad_token_id=tokenizer.pad_token_id)
+            #     # model.generation_config.repetition_penalty = None
 
-                model.generation_config.do_sample = False  # use greedy decoding
-                model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
-            elif 'openchat' in model_base.lower() or 'mistral' in model_base.lower():
+            #     model.generation_config.do_sample = False  # use greedy decoding
+            #     model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
+            if 'openchat' in model_base.lower() or 'mistral' in model_base.lower():
                 model = LlavaMistralForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
             elif 'qwen' in model_base.lower() and any(version in model_base.lower() for version in ['1.5', '2']):
                 model = LlavaQwen2ForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
