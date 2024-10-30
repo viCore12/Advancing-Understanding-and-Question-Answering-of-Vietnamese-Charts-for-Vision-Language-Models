@@ -16,6 +16,6 @@ if a == '4' and int(b) >= 36:
     from .language_model.llava_stablelm_moe import MoELLaVAStablelmForCausalLM, MoELLaVAStablelmConfig
 if a == '4' and int(b) >= 37:
     from .language_model.llava_qwen1_5 import LlavaQwen2ForCausalLM, LlavaQwen2Config
-    from .language_model.llava_qwen1_5_moe import MoELLaVAQwen1_5ForCausalLM, MoELLaVAQwen1_5Config
+    from .language_model.llava_qwen1_5_moe import MoELLaVAQwen2ForCausalLM, MoELLaVAQwen2Config
 if a == '4' and int(b) <= 31:
     from .language_model.llava_mpt import LlavaMPTForCausalLM, LlavaMPTConfig

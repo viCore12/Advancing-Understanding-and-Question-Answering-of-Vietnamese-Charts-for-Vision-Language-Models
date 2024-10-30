@@ -44,7 +44,7 @@ def rank0_print(*args):
         print(*args)
 
 
-class MoELLaVAQwen1_5Config(Qwen2Config):
+class MoELLaVAQwen2Config(Qwen2Config):
     model_type = "moe_llava_qwen1_5"
 
     def __init__(self,
@@ -77,11 +77,11 @@ class MoELLaVAQwen1_5Config(Qwen2Config):
         )
         self.lora = {}
 
-        super(MoELLaVAQwen1_5Config, self).__init__(**kwargs)
+        super(MoELLaVAQwen2Config, self).__init__(**kwargs)
 
 
 class MoELLaVAQwen1_5Model(LlavaMetaModel, Qwen2Model):
-    config_class = MoELLaVAQwen1_5Config
+    config_class = MoELLaVAQwen2Config
 
     def __init__(self, config: Qwen2Config):
         super(MoELLaVAQwen1_5Model, self).__init__(config)
@@ -339,8 +339,8 @@ def MoEQwen1_5Model_forward(self):
     return forward
 
 
-class MoELLaVAQwen1_5ForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
-    config_class = MoELLaVAQwen1_5Config
+class MoELLaVAQwen2ForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
+    config_class = MoELLaVAQwen2Config
 
     def __init__(self, config):
         super(Qwen2ForCausalLM, self).__init__(config)
@@ -564,11 +564,11 @@ class MoELLaVAQwen1_5ForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
         # ipdb.set_trace()
 
 
-class EvalMoELLaVAQwen1_5ForCausalLM(MoELLaVAQwen1_5ForCausalLM):
-    config_class = MoELLaVAQwen1_5Config
+class EvalMoELLaVAQwen2ForCausalLM(MoELLaVAQwen2ForCausalLM):
+    config_class = MoELLaVAQwen2Config
 
     def __init__(self, config):
-        super(EvalMoELLaVAQwen1_5ForCausalLM, self).__init__(config)
+        super(EvalMoELLaVAQwen2ForCausalLM, self).__init__(config)
         if getattr(self.config, 'lora', False) and self.config.lora.get('lora_enable', False):
             from peft import LoraConfig, get_peft_model
             pre_lora_config = self.config.lora
@@ -619,7 +619,7 @@ class EvalMoELLaVAQwen1_5ForCausalLM(MoELLaVAQwen1_5ForCausalLM):
 
 
 
-AutoConfig.register("moe_llava_qwen1_5", MoELLaVAQwen1_5Config)
-AutoModelForCausalLM.register(MoELLaVAQwen1_5Config, MoELLaVAQwen1_5ForCausalLM)
+AutoConfig.register("moe_llava_qwen1_5", MoELLaVAQwen2Config)
+AutoModelForCausalLM.register(MoELLaVAQwen2Config, MoELLaVAQwen2ForCausalLM)
 
-AutoModelForCausalLM.register(MoELLaVAQwen1_5Config, EvalMoELLaVAQwen1_5ForCausalLM)
+AutoModelForCausalLM.register(MoELLaVAQwen2Config, EvalMoELLaVAQwen2ForCausalLM)

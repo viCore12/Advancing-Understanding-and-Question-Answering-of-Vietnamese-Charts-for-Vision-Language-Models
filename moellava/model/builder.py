@@ -36,7 +36,7 @@ if a == '4' and int(b) >= 36:
     from moellava.model.language_model.llava_stablelm_moe import EvalMoELLaVAStablelmForCausalLM
     from moellava.model.language_model.llava_stablelm import LlavaStablelmForCausalLM
 if a == '4' and int(b) >= 37:
-    from moellava.model.language_model.llava_qwen1_5_moe import EvalMoELLaVAQwen1_5ForCausalLM
+    from moellava.model.language_model.llava_qwen1_5_moe import EvalMoELLaVAQwen2ForCausalLM
     from moellava.model.language_model.llava_qwen1_5 import LlavaQwen2ForCausalLM
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig, BitsAndBytesConfig, GenerationConfig
@@ -134,21 +134,19 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
         elif 'lora' in model_name.lower() and 'moe' in model_name.lower():
             lora_cfg_pretrained = AutoConfig.from_pretrained(model_path)
             print('Adapting to MoE...')
-            if 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
-                tokenizer = QWenTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
-                model = EvalMoELLaVAQWenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
-                model.generation_config = GenerationConfig.from_pretrained(model_path, pad_token_id=tokenizer.pad_token_id)
-                # model.generation_config.repetition_penalty = None
-                model.generation_config.do_sample = False  # use greedy decoding
-                model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
-            elif 'openchat' in model_name.lower() or 'mistral' in model_name.lower():
+            # if 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
+            #     tokenizer = QWenTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
+            #     model = EvalMoELLaVAQWenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
+            #     model.generation_config = GenerationConfig.from_pretrained(model_path, pad_token_id=tokenizer.pad_token_id)
+            #     # model.generation_config.repetition_penalty = None
+            #     model.generation_config.do_sample = False  # use greedy decoding
+            #     model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
+            if 'openchat' in model_name.lower() or 'mistral' in model_name.lower():
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
                 model = EvalMoELLaVAMistralForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
-            elif 'qwen' in model_name.lower() and '1.5' in model_name.lower():
+            elif 'qwen' in model_name.lower() and any(version in model_name.lower() for version in ['1.5', '2']):
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
-                model = EvalMoELLaVAQwen1_5ForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
-                # import ipdb
-                # ipdb.set_trace()
+                model = EvalMoELLaVAQwen2ForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
                 model.config.eos_token_id = tokenizer.eos_token_id
             elif 'phi' in model_name.lower():
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
@@ -219,11 +217,11 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 else:
                     model = LlavaPhiForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
                 model.config.eos_token_id = tokenizer.eos_token_id
-            elif 'qwen' in model_name.lower() and '1.5' in model_name.lower():
+            elif 'qwen' in model_name.lower() and any(version in model_name.lower() for version in ['1.5', '2']):
                 tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False, padding_side=padding_side)
                 cfg_pretrained = LlavaQwen2Config.from_pretrained(model_path)
                 if getattr(cfg_pretrained, 'moe', {}).get('moe_enable', False):
-                    model = EvalMoELLaVAQwen1_5ForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
+                    model = EvalMoELLaVAQwen2ForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
                     import deepspeed
                     deepspeed.init_distributed(dist_backend='nccl')
                     # Initialize the DeepSpeed-Inference engine
@@ -272,7 +270,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 else:
                     model = LlavaStablelmForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
                 # model.config.eos_token_id = tokenizer.eos_token_id
-            elif 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
+            elif 'qwen' in model_name.lower() and any(version in model_name.lower() for version in ['1.5', '2']):
                 tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False, padding_side=padding_side)
                 cfg_pretrained = AutoConfig.from_pretrained(model_path)
                 if getattr(cfg_pretrained, 'moe', {}).get('moe_enable', False):
@@ -321,28 +319,28 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 else:
                     tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True, padding_side=padding_side)
                     model = LlavaMPTForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
-            elif 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
-                tokenizer = QWenTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
-                if 'moe' in model_name.lower():
-                    assert not load_8bit and not load_4bit  # FIXME
-                    model = EvalMoELLaVAQWenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
-                    import deepspeed
-                    deepspeed.init_distributed(dist_backend='nccl')
-                    # Initialize the DeepSpeed-Inference engine
-                    ds_engine = deepspeed.init_inference(model,
-                                                         # mp_size=2,
-                                                         # dtype=torch.half,
-                                                         checkpoint=None,
-                                                         replace_with_kernel_inject=False)
-                    model = ds_engine.module
-                else:
-                    model = LlavaQWenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
-                    print(model)
-                model.generation_config = GenerationConfig.from_pretrained(model_path, pad_token_id=tokenizer.pad_token_id)
-                # model.generation_config.repetition_penalty = None
+            # elif 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
+            #     tokenizer = QWenTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
+            #     if 'moe' in model_name.lower():
+            #         assert not load_8bit and not load_4bit  # FIXME
+            #         model = EvalMoELLaVAQWenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
+            #         import deepspeed
+            #         deepspeed.init_distributed(dist_backend='nccl')
+            #         # Initialize the DeepSpeed-Inference engine
+            #         ds_engine = deepspeed.init_inference(model,
+            #                                              # mp_size=2,
+            #                                              # dtype=torch.half,
+            #                                              checkpoint=None,
+            #                                              replace_with_kernel_inject=False)
+            #         model = ds_engine.module
+            #     else:
+            #         model = LlavaQWenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
+            #         print(model)
+            #     model.generation_config = GenerationConfig.from_pretrained(model_path, pad_token_id=tokenizer.pad_token_id)
+            #     # model.generation_config.repetition_penalty = None
 
-                model.generation_config.do_sample = False  # use greedy decoding
-                model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
+            #     model.generation_config.do_sample = False  # use greedy decoding
+            #     model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
             elif 'openchat' in model_name.lower() or 'mistral' in model_name.lower():
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
                 # print(tokenizer)
@@ -379,12 +377,12 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 else:
                     model = LlavaPhiForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
                 model.config.eos_token_id = tokenizer.eos_token_id
-            elif 'qwen' in model_name.lower() and '1.5' in model_name.lower():
+            elif 'qwen' in model_name.lower() and any(version in model_name.lower() for version in ['1.5', '2']):
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, padding_side=padding_side)
                 # print(tokenizer)
                 if 'moe' in model_name.lower():
                     assert not load_8bit and not load_4bit  # FIXME
-                    model = EvalMoELLaVAQwen1_5ForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
+                    model = EvalMoELLaVAQwen2ForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
                     import deepspeed
                     deepspeed.init_distributed(dist_backend='nccl')
                     # Initialize the DeepSpeed-Inference engine
