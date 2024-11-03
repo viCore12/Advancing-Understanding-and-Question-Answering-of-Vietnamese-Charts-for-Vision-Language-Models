@@ -42,7 +42,7 @@ if a == '4' and int(b) >= 36:
     from moellava.model.language_model.llava_stablelm_moe import EvalMoELLaVAStablelmForCausalLM
     from moellava.model.language_model.llava_stablelm import LlavaStablelmForCausalLM
 if a == '4' and int(b) >= 37:
-    from moellava.model.language_model.llava_qwen1_5_moe import EvalMoELLaVAQwen1_5ForCausalLM
+    from moellava.model.language_model.llava_qwen1_5_moe import EvalMoELLaVAQwen2ForCausalLM
     from moellava.model.language_model.llava_qwen1_5 import LlavaQwen2ForCausalLM
 
 
@@ -76,6 +76,10 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 model_base, use_fast=False, padding_side=padding_side)
             print('Loading LLaVA from base model...')
 
+            # if 'qwen' in model_base.lower() and '1.5' not in model_base.lower():
+            #     model = LlavaQWenForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
+            #     model.generation_config = GenerationConfig.from_pretrained(model_base, pad_token_id=tokenizer.pad_token_id)
+            #     # model.generation_config.repetition_penalty = None
             # if 'qwen' in model_base.lower() and '1.5' not in model_base.lower():
             #     model = LlavaQWenForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, **kwargs)
             #     model.generation_config = GenerationConfig.from_pretrained(model_base, pad_token_id=tokenizer.pad_token_id)
@@ -401,8 +405,8 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                     model_path, pad_token_id=tokenizer.pad_token_id)
                 # model.generation_config.repetition_penalty = None
 
-                model.generation_config.do_sample = False  # use greedy decoding
-                model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
+            #     model.generation_config.do_sample = False  # use greedy decoding
+            #     model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
             elif 'openchat' in model_name.lower() or 'mistral' in model_name.lower():
                 tokenizer = AutoTokenizer.from_pretrained(
                     model_path, use_fast=False, padding_side=padding_side)

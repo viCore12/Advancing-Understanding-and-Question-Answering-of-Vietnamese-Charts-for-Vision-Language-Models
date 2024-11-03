@@ -1346,7 +1346,7 @@ def train():
             #         **bnb_model_from_pretrained_args
             #     )
             if 'qwen' in model_args.model_name_or_path.lower() and any(version in model_args.model_name_or_path.lower() for version in ['1.5', '2']):
-                model = MoELLaVAQwen1_5ForCausalLM.from_pretrained(
+                model = MoELLaVAQwen2ForCausalLM.from_pretrained(
                     model_args.model_name_or_path,
                     cache_dir=training_args.cache_dir,
                     # attn_implementation="flash_attention_2",
