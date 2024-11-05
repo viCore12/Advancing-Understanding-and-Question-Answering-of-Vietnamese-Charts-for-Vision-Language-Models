@@ -42,8 +42,8 @@ if a == '4' and int(b) >= 36:
     from moellava.model.language_model.llava_stablelm_moe import EvalMoELLaVAStablelmForCausalLM
     from moellava.model.language_model.llava_stablelm import LlavaStablelmForCausalLM
 if a == '4' and int(b) >= 37:
-    from moellava.model.language_model.llava_qwen1_5_moe import EvalMoELLaVAQwen2ForCausalLM
-    from moellava.model.language_model.llava_qwen1_5 import LlavaQwen2ForCausalLM
+    from moellava.model.language_model.llava_qwen2_moe import EvalMoELLaVAQwen2ForCausalLM
+    from moellava.model.language_model.llava_qwen2 import LlavaQwen2ForCausalLM
 
 
 def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, load_4bit=False, device_map="auto",
