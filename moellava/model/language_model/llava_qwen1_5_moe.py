@@ -619,7 +619,7 @@ class EvalMoELLaVAQwen2ForCausalLM(MoELLaVAQwen2ForCausalLM):
 
 
 
-AutoConfig.register("moe_llava_qwen1_5", MoELLaVAQwen2Config)
+AutoConfig.register("moe_llava_qwen2", MoELLaVAQwen2Config)
 AutoModelForCausalLM.register(MoELLaVAQwen2Config, MoELLaVAQwen2ForCausalLM)
 
 AutoModelForCausalLM.register(MoELLaVAQwen2Config, EvalMoELLaVAQwen2ForCausalLM)
