@@ -45,7 +45,7 @@ def rank0_print(*args):
 
 
 class MoELLaVAQwen2Config(Qwen2Config):
-    model_type = "moe_llava_qwen1_5"
+    model_type = "moe_llava_qwen2"
 
     def __init__(self,
                  moe_enable=True,
