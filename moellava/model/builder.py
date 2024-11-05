@@ -166,7 +166,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
             elif 'qwen' in model_name.lower() and any(version in model_name.lower() for version in ['1.5', '2']):
                 tokenizer = AutoTokenizer.from_pretrained(
                     model_path, use_fast=False, padding_side=padding_side)
-                model = EvalMoELLaVAQwen1_5ForCausalLM.from_pretrained(
+                model = EvalMoELLaVAQwen2ForCausalLM.from_pretrained(
                     model_path, low_cpu_mem_usage=True, **kwargs)
                 # import ipdb
                 # ipdb.set_trace()
@@ -263,7 +263,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                     model_base, use_fast=False, padding_side=padding_side)
                 cfg_pretrained = LlavaQwen2Config.from_pretrained(model_path)
                 if getattr(cfg_pretrained, 'moe', {}).get('moe_enable', False):
-                    model = EvalMoELLaVAQwen1_5ForCausalLM.from_pretrained(
+                    model = EvalMoELLaVAQwen2ForCausalLM.from_pretrained(
                         model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
                     import deepspeed
                     deepspeed.init_distributed(dist_backend='nccl')
@@ -455,7 +455,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 # print(tokenizer)
                 if 'moe' in model_name.lower():
                     assert not load_8bit and not load_4bit  # FIXME
-                    model = EvalMoELLaVAQwen1_5ForCausalLM.from_pretrained(
+                    model = EvalMoELLaVAQwen2ForCausalLM.from_pretrained(
                         model_path, low_cpu_mem_usage=True, **kwargs)
                     import deepspeed
                     deepspeed.init_distributed(dist_backend='nccl')
