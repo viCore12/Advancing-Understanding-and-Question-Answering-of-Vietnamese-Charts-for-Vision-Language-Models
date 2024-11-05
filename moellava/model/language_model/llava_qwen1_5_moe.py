@@ -80,11 +80,11 @@ class MoELLaVAQwen2Config(Qwen2Config):
         super(MoELLaVAQwen2Config, self).__init__(**kwargs)
 
 
-class MoELLaVAQwen1_5Model(LlavaMetaModel, Qwen2Model):
+class MoELLaVAQwen2Model(LlavaMetaModel, Qwen2Model):
     config_class = MoELLaVAQwen2Config
 
     def __init__(self, config: Qwen2Config):
-        super(MoELLaVAQwen1_5Model, self).__init__(config)
+        super(MoELLaVAQwen2Model, self).__init__(config)
 
 
 @dataclass
@@ -344,7 +344,7 @@ class MoELLaVAQwen2ForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
 
     def __init__(self, config):
         super(Qwen2ForCausalLM, self).__init__(config)
-        self.model = MoELLaVAQwen1_5Model(config)
+        self.model = MoELLaVAQwen2Model(config)
         self.vocab_size = config.vocab_size
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
 
