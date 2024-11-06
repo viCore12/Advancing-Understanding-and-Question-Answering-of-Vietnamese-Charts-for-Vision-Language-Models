@@ -321,31 +321,31 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                     model = LlavaStablelmForCausalLM.from_pretrained(
                         model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
                 # model.config.eos_token_id = tokenizer.eos_token_id
-            elif 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
-                tokenizer = AutoTokenizer.from_pretrained(
-                    model_base, use_fast=False, padding_side=padding_side)
-                cfg_pretrained = AutoConfig.from_pretrained(model_path)
-                if getattr(cfg_pretrained, 'moe', {}).get('moe_enable', False):
-                    model = EvalMoELLaVAQWenForCausalLM.from_pretrained(
-                        model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
-                    import deepspeed
-                    deepspeed.init_distributed(dist_backend='nccl')
-                    # Initialize the DeepSpeed-Inference engine
-                    ds_engine = deepspeed.init_inference(model,
-                                                         # mp_size=2,
-                                                         # dtype=torch.half,
-                                                         checkpoint=None,
-                                                         replace_with_kernel_inject=False)
-                    model = ds_engine.module
-                else:
-                    model = LlavaQWenForCausalLM.from_pretrained(
-                        model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
-                model.generation_config = GenerationConfig.from_pretrained(
-                    model_base, pad_token_id=tokenizer.pad_token_id)
-                # model.generation_config.repetition_penalty = None
+            # elif 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
+            #     tokenizer = AutoTokenizer.from_pretrained(
+            #         model_base, use_fast=False, padding_side=padding_side)
+            #     cfg_pretrained = AutoConfig.from_pretrained(model_path)
+            #     if getattr(cfg_pretrained, 'moe', {}).get('moe_enable', False):
+            #         model = EvalMoELLaVAQWenForCausalLM.from_pretrained(
+            #             model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
+            #         import deepspeed
+            #         deepspeed.init_distributed(dist_backend='nccl')
+            #         # Initialize the DeepSpeed-Inference engine
+            #         ds_engine = deepspeed.init_inference(model,
+            #                                              # mp_size=2,
+            #                                              # dtype=torch.half,
+            #                                              checkpoint=None,
+            #                                              replace_with_kernel_inject=False)
+            #         model = ds_engine.module
+            #     else:
+            #         model = LlavaQWenForCausalLM.from_pretrained(
+            #             model_base, low_cpu_mem_usage=True, config=cfg_pretrained, **kwargs)
+            #     model.generation_config = GenerationConfig.from_pretrained(
+            #         model_base, pad_token_id=tokenizer.pad_token_id)
+            #     # model.generation_config.repetition_penalty = None
 
-                model.generation_config.do_sample = False  # use greedy decoding
-                model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
+            #     model.generation_config.do_sample = False  # use greedy decoding
+            #     model.generation_config.repetition_penalty = 1.0  # disable repetition penalty
             else:
                 tokenizer = AutoTokenizer.from_pretrained(
                     model_base, use_fast=False, padding_side=padding_side)
@@ -381,28 +381,28 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                         model_path, use_fast=True, padding_side=padding_side)
                     model = LlavaMPTForCausalLM.from_pretrained(
                         model_path, low_cpu_mem_usage=True, **kwargs)
-            elif 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
-                tokenizer = QWenTokenizer.from_pretrained(
-                    model_path, use_fast=False, padding_side=padding_side)
-                if 'moe' in model_name.lower():
-                    assert not load_8bit and not load_4bit  # FIXME
-                    model = EvalMoELLaVAQWenForCausalLM.from_pretrained(
-                        model_path, low_cpu_mem_usage=True, **kwargs)
-                    import deepspeed
-                    deepspeed.init_distributed(dist_backend='nccl')
-                    # Initialize the DeepSpeed-Inference engine
-                    ds_engine = deepspeed.init_inference(model,
-                                                         # mp_size=2,
-                                                         # dtype=torch.half,
-                                                         checkpoint=None,
-                                                         replace_with_kernel_inject=False)
-                    model = ds_engine.module
-                else:
-                    model = LlavaQWenForCausalLM.from_pretrained(
-                        model_path, low_cpu_mem_usage=True, **kwargs)
-                    print(model)
-                model.generation_config = GenerationConfig.from_pretrained(
-                    model_path, pad_token_id=tokenizer.pad_token_id)
+            # elif 'qwen' in model_name.lower() and '1.5' not in model_name.lower():
+            #     tokenizer = QWenTokenizer.from_pretrained(
+            #         model_path, use_fast=False, padding_side=padding_side)
+            #     if 'moe' in model_name.lower():
+            #         assert not load_8bit and not load_4bit  # FIXME
+            #         model = EvalMoELLaVAQWenForCausalLM.from_pretrained(
+            #             model_path, low_cpu_mem_usage=True, **kwargs)
+            #         import deepspeed
+            #         deepspeed.init_distributed(dist_backend='nccl')
+            #         # Initialize the DeepSpeed-Inference engine
+            #         ds_engine = deepspeed.init_inference(model,
+            #                                              # mp_size=2,
+            #                                              # dtype=torch.half,
+            #                                              checkpoint=None,
+            #                                              replace_with_kernel_inject=False)
+            #         model = ds_engine.module
+            #     else:
+            #         model = LlavaQWenForCausalLM.from_pretrained(
+            #             model_path, low_cpu_mem_usage=True, **kwargs)
+            #         print(model)
+            #     model.generation_config = GenerationConfig.from_pretrained(
+            #         model_path, pad_token_id=tokenizer.pad_token_id)
                 # model.generation_config.repetition_penalty = None
 
             #     model.generation_config.do_sample = False  # use greedy decoding
